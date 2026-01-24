@@ -44,13 +44,56 @@ document.getElementById('tripForm').addEventListener('submit', async (e) => {
     // Store days for itinerary builder
     tripDays = formData.days;
 
-    // Disable button and clear previous output
+    // Disable button and show loading state
     submitBtn.disabled = true;
     submitBtn.textContent = 'Planning your trip...';
-    output.innerHTML = '<div class="loading-skeleton"></div><div class="loading-skeleton" style="width: 80%"></div><div class="loading-skeleton" style="width: 60%"></div>';
+
+    // Initial Loading UI
+    output.innerHTML = `
+        <div class="loading-container">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 10px;">Building Your Dream Trip</h2>
+            <p style="color: var(--text-muted);">AI is analyzing your preferences...</p>
+            <div class="loading-steps">
+                <div class="loading-step active" id="step-1">
+                    <div class="step-icon">1</div>
+                    <div class="step-text">Analyzing travel preferences</div>
+                </div>
+                <div class="loading-step" id="step-2">
+                    <div class="step-icon">2</div>
+                    <div class="step-text">Finding best accommodations</div>
+                </div>
+                <div class="loading-step" id="step-3">
+                    <div class="step-icon">3</div>
+                    <div class="step-text">Curating local experiences</div>
+                </div>
+                <div class="loading-step" id="step-4">
+                    <div class="step-icon">4</div>
+                    <div class="step-text">Finalizing day-wise itinerary</div>
+                </div>
+            </div>
+        </div>
+    `;
+
+    // Helper to update steps
+    const updateStep = (stepNum) => {
+        const prev = document.getElementById(`step-${stepNum - 1}`);
+        if (prev) {
+            prev.classList.remove('active');
+            prev.classList.add('completed');
+            prev.querySelector('.step-icon').innerHTML = '✓';
+        }
+
+        const current = document.getElementById(`step-${stepNum}`);
+        if (current) current.classList.add('active');
+    };
+
     errorEl.style.display = 'none';
 
     try {
+        // Simulate step 1 progress
+        await new Promise(r => setTimeout(r, 1500));
+        updateStep(2);
+
         const response = await fetch('/api/plan-trip', {
             method: 'POST',
             headers: {
@@ -64,11 +107,15 @@ document.getElementById('tripForm').addEventListener('submit', async (e) => {
             throw new Error(error.message || 'Failed to plan trip');
         }
 
+        // Simulate step 2 completion as data starts arriving
+        updateStep(3);
+
         // Stream the response
         const reader = response.body.getReader();
         const decoder = new TextDecoder();
         let fullText = '';
-        output.innerHTML = '';
+
+        // Keep loading UI visible while buffering initial data
 
         while (true) {
             const { done, value } = await reader.read();
@@ -77,10 +124,15 @@ document.getElementById('tripForm').addEventListener('submit', async (e) => {
             const chunk = decoder.decode(value, { stream: true });
             fullText += chunk;
 
-            // Display with typing effect
-            output.innerHTML = `<div class="chat-message">${escapeHtml(fullText)}<span class="typing-cursor"></span></div>`;
-            document.getElementById('outputSection').scrollTop = document.getElementById('outputSection').scrollHeight;
+            // Once we have a significant amount of data, show step 4
+            if (fullText.length > 500 && !document.getElementById('step-4').classList.contains('active')) {
+                updateStep(4);
+            }
         }
+
+        // Final completion
+        updateStep(5); // Mark step 4 as done visually internally if needed, or just proceed
+        await new Promise(r => setTimeout(r, 800)); // Small pause to show completion
 
         // Remove cursor after done
         // Try to parse parsing the final text as JSON for formatted display
