@@ -1,170 +1,187 @@
-# ✈️ Trip Planner AI - AI-Powered Travel Itinerary Generator
+# ✈️ TripSync - AI-Powered Trip Planner
 
-A smart trip planning application that uses machine learning and LLM integration to create personalized travel itineraries.
+<p align="center">
+  <img src="static/images/logo.png" alt="TripSync Logo" width="120">
+</p>
+
+An intelligent trip planning application that combines **Large Language Models (LLM)**, **Machine Learning (ML)**, and **Retrieval-Augmented Generation (RAG)** to create personalized travel itineraries.
 
 ## 🚀 Quick Start
 
 ```bash
-npm install
-npm start
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure environment
+cp .env.example .env  # Add your API keys
+
+# Run the application
+python app.py
 ```
 
-**Access:**
-- Form UI: http://localhost:3000
-- Agent Chat: http://localhost:3000/agent
+**Access:** http://localhost:5000
 
 ## ✨ Features
 
-- 🤖 AI-powered itinerary generation (Groq LLM)
-- 🗺️ Smart place ranking and recommendations
-- 💰 Budget-aware trip planning
-- 📍 Real-time location services (Geoapify, Mappls)
-- 🌤️ Weather integration (Open-Meteo)
-- 💬 Conversational agent interface
-- 📊 ML-based recommendations
-- ⚡ Streaming responses with typing effect
+| Feature | Description |
+|---------|-------------|
+| 🤖 **LLM Itinerary Generation** | Groq API with llama-3.3-70b-versatile |
+| 🔍 **RAG Pipeline** | Context-aware responses with vector similarity search |
+| 📊 **ML Recommendations** | TF-IDF content filtering + KMeans clustering |
+| 🗺️ **Interactive Maps** | Mappls SDK with route visualization |
+| 📍 **Places API** | Real-time attractions via Geoapify |
+| 💰 **Budget Planning** | Smart budget distribution across categories |
+| 🍽️ **Dining Suggestions** | Restaurant recommendations via Overpass API |
+
+## 🧠 AI/ML Technologies
+
+### 1. Large Language Model (LLM)
+- **Provider:** Groq API
+- **Model:** `llama-3.3-70b-versatile`
+- **Purpose:** Generate detailed day-by-day itineraries
+
+### 2. Retrieval-Augmented Generation (RAG)
+- **Embeddings:** OpenRouter API (`text-embedding-3-small`)
+- **Vector Store:** Custom implementation with cosine similarity
+- **Knowledge Base:** Travel safety, seasons, temple rules
+
+### 3. Machine Learning
+- **TF-IDF Vectorizer:** Content-based place recommendations
+- **KMeans Clustering:** Geographical grouping for day allocation
+- **Haversine Distance:** Proximity-based scoring
 
 ## 📋 Configuration
 
-Create `.env` file:
-```bash
-GEOAPIFY_API_KEY=your_key
-GROQ_API_KEY=your_key
-MAPPLS_API_KEY=your_key (optional)
-GOOGLE_PLACES_API_KEY=your_key (optional)
-PORT=3000
-NODE_ENV=development
+Create a `.env` file with your API keys:
+
+```env
+# Required
+GROQ_API_KEY=your_groq_key
+GEOAPIFY_API_KEY=your_geoapify_key
+
+# Optional - Enhanced Features
+OPENAI_API_KEY=your_openrouter_key        # For RAG embeddings
+MAPPLS_CLIENT_ID=your_mappls_id           # For maps
+MAPPLS_CLIENT_SECRET=your_mappls_secret
+GOOGLE_PLACES_API_KEY=your_google_key     # For place images
 ```
-
-## 📚 Documentation
-
-- **BUG_FIX_REPORT.md** - All issues that were fixed
-- **VALIDATION_GUIDE.md** - Complete testing & verification procedures
-
-## 🛠️ Technology Stack
-
-- **Backend:** Node.js + Express
-- **LLM:** Groq API (Mixtral-8x7b-32768)
-- **APIs:** Geoapify, Mappls, Open-Meteo, Overpass
-- **Frontend:** HTML5 + CSS3 + Vanilla JS
-- **Database:** Local JSON
-- **ML:** Python (clustering, recommendations)
 
 ## 📂 Project Structure
 
 ```
-Trip-Planner/
-├── server.js                    # Main Express server
-├── services/                    # Backend services
-│   ├── llm.service.js          # LLM integration
-│   ├── places.service.js       # Places API
-│   ├── prompt.builder.js       # Prompt generation
-│   └── ...other services
-├── public/                      # Frontend files
-│   ├── index.html              # Form UI
-│   ├── agent.html              # Chat interface
-│   └── styles.css              # Styling
-├── data/                        # Data files
-│   └── processed/database.json  # Places database
-└── ml_engine/                   # Python ML services
+TripSync/
+├── app.py                      # Flask application
+├── requirements.txt            # Python dependencies
+│
+├── services/                   # Backend services
+│   ├── llm_service.py          # Groq LLM integration
+│   ├── prompt_builder.py       # Prompt construction
+│   ├── places_service.py       # Places API
+│   ├── mappls_service.py       # Maps & routing
+│   ├── image_service.py        # Place images
+│   ├── local_db_service.py     # Local caching
+│   │
+│   └── rag/                    # RAG pipeline
+│       ├── loader.py           # Document loading
+│       ├── vector_store.py     # Embeddings & search
+│       └── query_rag.py        # Query interface
+│
+├── ml_engine/                  # ML components
+│   ├── recommender.py          # TF-IDF recommender
+│   └── clustering.py           # KMeans clustering
+│
+├── templates/                  # Jinja2 templates
+│   ├── index.html              # Main page
+│   └── itinerary-display.html  # Results view
+│
+├── static/                     # Static assets
+│   ├── css/styles.css
+│   └── js/app.js
+│
+└── data/                       # Datasets
+    ├── raw/                    # Source data
+    └── processed/              # Cached database
 ```
 
-## 🧪 Testing
+## 🛠️ Technology Stack
 
-**Test main endpoint:**
+| Layer | Technology |
+|-------|------------|
+| **Backend** | Python 3.x, Flask |
+| **LLM** | Groq API (llama-3.3-70b) |
+| **ML** | scikit-learn (TF-IDF, KMeans) |
+| **RAG** | Custom vector store + OpenRouter embeddings |
+| **Maps** | Mappls SDK |
+| **Geocoding** | Geoapify, Nominatim |
+| **Frontend** | HTML5, CSS3, JavaScript |
+| **Templates** | Jinja2 |
+
+## 🧪 API Endpoints
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/` | GET | Main trip planning form |
+| `/api/plan-trip` | POST | Generate itinerary |
+| `/api/map-data` | POST | Get route & places |
+| `/api/place-images` | POST | Fetch place images |
+
+### Example Request
+
 ```bash
-curl -X POST http://localhost:3000/api/plan-trip \
+curl -X POST http://localhost:5000/api/plan-trip \
   -H "Content-Type: application/json" \
-  -d '{"destination":"Goa","source":"Pune","budget":"25000","people":2,"days":3,"transport":"bus"}'
+  -d '{
+    "destination": "Goa",
+    "source": "Mumbai",
+    "budget": "25000",
+    "people": 2,
+    "days": 3,
+    "transport": "car",
+    "preferences": ["beach", "adventure"]
+  }'
 ```
 
-**Test debug endpoint:**
-```bash
-curl -X POST http://localhost:3000/api/debug/decision-trace \
-  -H "Content-Type: application/json" \
-  -d '{"destination":"Goa","source":"Pune","budget":"25000","people":2,"days":3}' | jq .
+## 📊 System Architecture
+
+```
+User Input → Flask API → Context Gathering → RAG Query
+                              ↓
+                    ML Recommendations (TF-IDF)
+                              ↓
+                    Prompt Builder + Context
+                              ↓
+                    Groq LLM (llama-3.3-70b)
+                              ↓
+                    JSON Itinerary Response
+                              ↓
+                    KMeans Day Allocation
+                              ↓
+                    Frontend Display + Map
 ```
 
-## ✅ All Issues Fixed
+## 🔐 API Rate Limits
 
-7 critical issues were identified and fixed:
-1. ✅ Boolean logic error in data processing
-2. ✅ API key configuration errors
-3. ✅ Wrong LLM provider integration
-4. ✅ Missing environment validation
-5. ✅ Missing agent route
-6. ✅ Missing agent UI
-7. ✅ Geoapify API configuration
-
-See **BUG_FIX_REPORT.md** for detailed information.
-
-## 📊 Performance
-
-- **Cold Start:** 3-6 seconds
-- **Warm Start:** 3-4.5 seconds
-- **API Calls:** < 500ms
-- **Streaming:** 5ms per chunk
-
-## 🔐 Rate Limits
-
-- Groq: 30 requests/min (free)
-- Geoapify: 250k/month (free)
-- Mappls: 1M/month (free)
-- Open-Meteo: Unlimited (free)
-
-## 🐛 Troubleshooting
-
-See **VALIDATION_GUIDE.md** for detailed troubleshooting steps.
-
-**Quick fixes:**
-```bash
-# Port already in use
-lsof -ti:3000 | xargs kill -9
-
-# Module not found
-npm install --legacy-peer-deps
-
-# Invalid API key
-# Regenerate from provider and update .env
-```
+| API | Free Tier |
+|-----|-----------|
+| Groq | 30 req/min |
+| Geoapify | 250k/month |
+| Mappls | 1M/month |
+| OpenRouter | Pay-per-use |
 
 ## 📝 License
 
-MIT
+MIT License
 
 ## 👨‍💻 Author
 
-TripSync AI Development Team
+**TripSync AI Development Team**
 
-A smart itinerary generator that creates day-wise trip plans using LLM and real-time places data.
+---
 
-## Prerequisites
-
-- Node.js installed
-- valid `.env` file with `OPENAI_API_KEY` (OpenRouter) and `PLACES_API_KEY` (Geoapify).
-
-## Installation
-
-```bash
-npm install
-```
-
-## Running the Project
-
-1. Start the server:
-   ```bash
-   npm start
-   ```
-
-2. Open your browser and visit:
-   `http://localhost:3000`
-
-3. Enter your destination, budget, number of people, and days to generate an itinerary.
-
-## Architecture
-
-- **Backend**: Node.js + Express
-- **Frontend**: HTML/CSS/JS
-- **Services**:
-  - `llm.service.js`: Connects to OpenRouter (GPT-4o-mini)
-  - `places.service.js`: Fetches real places from Geoapify
+<p align="center">
+  Built with ❤️ using Python, Flask, and AI
+</p>
