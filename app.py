@@ -11,6 +11,7 @@ from services.places_service import get_places_by_name, get_coordinates
 from services.mappls_service import get_map_data, get_access_token, get_distance_info
 from services.local_db_service import load_local_db, upsert_destination, build_destination_from_api, find_destination, save_local_db
 from services.image_service import get_place_images
+from services.rag import query_rag
 
 from ml_engine.recommender import get_recommendations
 
@@ -113,13 +114,29 @@ def plan_trip():
                 logger.error(f"❌ ML Recommender Error: {ml_err}")
                 # Fallback to default ranking if ML fails
 
-            # 4. Prompt Construction
+            # 5. RAG Context Retrieval (Safe - won't break if fails)
+            rag_context = None
+            try:
+                logger.info("📚 Querying RAG for travel context...")
+                rag_query = f"{destination} travel tips safety best time to visit"
+                rag_context = query_rag(rag_query)
+                if rag_context and rag_context != "No relevant information found in knowledge base.":
+                    logger.info("✅ RAG context retrieved successfully")
+                else:
+                    rag_context = None
+                    logger.info("ℹ️ No relevant RAG context found")
+            except Exception as rag_err:
+                logger.warning(f"⚠️ RAG Query failed (continuing without): {rag_err}")
+                rag_context = None
+
+            # 6. Prompt Construction
             # Format preferences
             user_prefs_str = ", ".join(preferences) if preferences else "General sightseeing"
             
             prompt_context = {
                 "places": ranked_places,
-                "distanceInfo": distance_info
+                "distanceInfo": distance_info,
+                "ragContext": rag_context
             }
             
             prompt = build_prompt({
