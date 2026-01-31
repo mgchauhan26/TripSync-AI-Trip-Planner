@@ -1,0 +1,13 @@
+metric,value
+total_places,100
+total_attractions,437
+total_dining_options,600
+total_accommodation_options,520
+total_travel_routes,22500
+unique_source_cities,50
+unique_travel_modes,5
+avg_travel_cost,2276.22
+min_travel_cost,300.0
+max_travel_cost,6998.0
+avg_travel_duration_hours,6.3
+data_generated_on,2026-01-31 13:47:14

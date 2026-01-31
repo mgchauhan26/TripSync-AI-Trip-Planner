@@ -1,0 +1,601 @@
+food_id,spot_id,place_id,place_name,spot_name,food_place_name,price_per_person,budget_range
+1,1,1,Mahabaleshwar,Venna Lake,Venna Lake Snacks Corner,150,low
+2,1,1,Mahabaleshwar,Venna Lake,Strawberry Treat Cafe,350,mid
+3,1,1,Mahabaleshwar,Venna Lake,Lakeside Restaurant,700,high
+4,2,1,Mahabaleshwar,Arthur Seat,Arthur View Tea Stall,100,low
+5,2,1,Mahabaleshwar,Arthur Seat,Hilltop Dining Point,400,mid
+6,3,1,Mahabaleshwar,Wilson Point,Sunrise Maggie Point,120,low
+7,3,1,Mahabaleshwar,Wilson Point,Wilson Cafe,300,mid
+8,4,1,Mahabaleshwar,Mapro Garden,Mapro Food Court,350,mid
+9,4,1,Mahabaleshwar,Mapro Garden,Fresh Farm Eatery,600,high
+10,5,2,Lonavala,Bhushi Dam,Bhushi Vada Pav Stall,80,low
+11,5,2,Lonavala,Bhushi Dam,Dam View Snacks,150,low
+12,5,2,Lonavala,Bhushi Dam,Waterfall Cafe,450,mid
+13,6,2,Lonavala,Lion Point,Lion Point Chai Tapri,70,low
+14,6,2,Lonavala,Lion Point,Valley View Restaurant,500,mid
+15,7,2,Lonavala,Rajmachi Point,Rajmachi Bhojanalay,200,low
+16,7,2,Lonavala,Rajmachi Point,Trekker's Cafe,400,mid
+17,8,2,Lonavala,Karla Caves,Karla Cave Snacks,120,low
+18,8,2,Lonavala,Karla Caves,Ancient Rock Cafe,350,mid
+19,9,3,Khandala,Duke Nose,Duke Nose Tea Point,90,low
+20,9,3,Khandala,Duke Nose,Cliffside Restaurant,550,mid
+21,10,3,Khandala,Amrutanjan Point,Amrutanjan Maggie Point,100,low
+22,10,3,Khandala,Amrutanjan Point,Valley Food Shack,250,low
+23,11,3,Khandala,Shooting Point,Shooting Point Cafe,300,mid
+24,11,3,Khandala,Shooting Point,Film City Diner,600,high
+25,12,4,Matheran,Panorama Point,Panorama View Snacks,120,low
+26,12,4,Matheran,Panorama Point,Mountain Breeze Cafe,380,mid
+27,13,4,Matheran,Charlotte Lake,Charlotte Lake Food Stall,150,low
+28,13,4,Matheran,Charlotte Lake,Lakeview Restaurant,500,mid
+29,14,4,Matheran,Echo Point,Echo Point Corn Stall,80,low
+30,14,4,Matheran,Echo Point,Hill Echo Cafe,300,mid
+31,15,4,Matheran,One Tree Hill,One Tree Hill Snacks,100,low
+32,15,4,Matheran,One Tree Hill,Forest View Restaurant,450,mid
+33,16,5,Alibaug,Alibaug Beach,Alibaug Beach Shack,250,low
+34,16,5,Alibaug,Alibaug Beach,Sunset Coast Restaurant,700,high
+35,17,5,Alibaug,Kolaba Fort,Kolaba Fort Tea Stall,80,low
+36,17,5,Alibaug,Kolaba Fort,Sea Breeze Diner,400,mid
+37,18,5,Alibaug,Varsoli Beach,Varsoli Seafood Shack,350,mid
+38,18,5,Alibaug,Varsoli Beach,Beachside Thali House,600,high
+39,19,5,Alibaug,Nagaon Beach,Nagaon Beach Snacks,200,low
+40,19,5,Alibaug,Nagaon Beach,Water Sports Cafe,500,mid
+41,20,6,Murud,Murud Janjira Fort,Janjira Fort Tea Stall,90,low
+42,20,6,Murud,Murud Janjira Fort,Fort View Restaurant,450,mid
+43,21,6,Murud,Murud Beach,Murud Beach Corn Point,100,low
+44,21,6,Murud,Murud Beach,Seaside Family Restaurant,600,high
+45,22,6,Murud,Datta Mandir,Local Temple Bhojanalay,180,low
+46,22,6,Murud,Datta Mandir,Village Veg Mess,250,low
+47,23,7,Tarkarli,Tarkarli Beach,Tarkarli Beach Shack,300,mid
+48,23,7,Tarkarli,Tarkarli Beach,Scuba Cafe,650,high
+49,24,7,Tarkarli,Devbagh Beach,Devbagh Seafood Hut,400,mid
+50,24,7,Tarkarli,Devbagh Beach,Backwater Dining Deck,700,high
+51,25,7,Tarkarli,Karli Backwaters,Karli River Snacks,120,low
+52,25,7,Tarkarli,Karli Backwaters,Boat Ride Cafe,350,mid
+53,26,8,Ganpatipule,Ganpatipule Temple,Ganpatipule Prasad Bhojanalay,150,low
+54,26,8,Ganpatipule,Ganpatipule Temple,Temple View Restaurant,400,mid
+55,27,8,Ganpatipule,Ganpatipule Beach,Ganpatipule Beach Shack,300,mid
+56,27,8,Ganpatipule,Ganpatipule Beach,Sea Pearl Restaurant,700,high
+57,28,8,Ganpatipule,Jaigad Fort,Jaigad Fort Tea Point,90,low
+58,28,8,Ganpatipule,Jaigad Fort,Creek View Cafe,350,mid
+59,29,9,Ratnagiri,Bhatye Beach,Bhatye Beach Snacks,200,low
+60,29,9,Ratnagiri,Bhatye Beach,Coastal Curry House,500,mid
+61,30,9,Ratnagiri,Thibaw Palace,Thibaw Palace Cafe,300,mid
+62,30,9,Ratnagiri,Thibaw Palace,Heritage Dining Hall,650,high
+63,31,9,Ratnagiri,Pawas Village,Pawas Ashram Bhojanalay,200,low
+64,31,9,Ratnagiri,Pawas Village,Spiritual Cafe,350,mid
+65,32,10,Sindhudurg,Sindhudurg Fort,Sindhudurg Fort Snacks,150,low
+66,32,10,Sindhudurg,Sindhudurg Fort,Sea Fort Restaurant,600,high
+67,33,10,Sindhudurg,Malvan Beach,Malvan Beach Fish Fry,250,low
+68,33,10,Sindhudurg,Malvan Beach,Malvani Thali House,450,mid
+69,34,10,Sindhudurg,Tsunami Island,Tsunami Island Snack Boat,300,mid
+70,34,10,Sindhudurg,Tsunami Island,Island Dining Deck,750,high
+71,35,11,Panchgani,Table Land,Table Land Tea Stall,80,low
+72,35,11,Panchgani,Table Land,Plateau View Restaurant,400,mid
+73,36,11,Panchgani,Sydney Point,Sydney Point Chai Tapri,90,low
+74,36,11,Panchgani,Sydney Point,Valley Edge Cafe,350,mid
+75,37,11,Panchgani,Parsi Point,Parsi Point Snacks,120,low
+76,37,11,Panchgani,Parsi Point,Sunset Plate Restaurant,500,mid
+77,38,12,Igatpuri,Vipassana Center,Vipassana Simple Meals,200,low
+78,38,12,Igatpuri,Vipassana Center,Meditation Cafe,350,mid
+79,39,12,Igatpuri,Ashoka Waterfall,Ashoka Falls Snack Stall,150,low
+80,39,12,Igatpuri,Ashoka Waterfall,Waterfall View Cafe,450,mid
+81,40,12,Igatpuri,Tringalwadi Fort,Tringalwadi Base Mess,200,low
+82,40,12,Igatpuri,Tringalwadi Fort,Trekker's Food Point,350,mid
+83,41,13,Bhandardara,Arthur Lake,Arthur Lake Snack Point,120,low
+84,41,13,Bhandardara,Arthur Lake,Lakeside Dining,450,mid
+85,42,13,Bhandardara,Randha Falls,Randha Falls Corn Stall,100,low
+86,42,13,Bhandardara,Randha Falls,Falls View Restaurant,500,mid
+87,43,13,Bhandardara,Wilson Dam,Wilson Dam Tea Point,80,low
+88,43,13,Bhandardara,Wilson Dam,Reservoir Cafe,350,mid
+89,44,14,Ajanta,Ajanta Cave 1,Ajanta Cave Snacks,150,low
+90,44,14,Ajanta,Ajanta Cave 1,Cave View Restaurant,500,mid
+91,45,14,Ajanta,Ajanta Cave 2,Ajanta Local Bhojanalay,200,low
+92,45,14,Ajanta,Ajanta Cave 2,Heritage Thali House,400,mid
+93,46,14,Ajanta,Ajanta Viewpoint,Ajanta View Tea Stall,100,low
+94,46,14,Ajanta,Ajanta Viewpoint,Panorama Cafe,350,mid
+95,47,15,Ellora,Kailasa Temple,Kailasa Temple Prasad Hall,200,low
+96,47,15,Ellora,Kailasa Temple,Ellora Heritage Restaurant,600,high
+97,48,15,Ellora,Ellora Cave 10,Ellora Cave Snack Stall,150,low
+98,48,15,Ellora,Ellora Cave 10,Buddhist Cafe,350,mid
+99,49,15,Ellora,Ellora Cave 16,Ellora Tourist Canteen,250,low
+100,49,15,Ellora,Ellora Cave 16,Rock Cut Dining Hall,550,mid
+101,50,16,Aurangabad,Bibi Ka Maqbara,Bhimashankar Temple Bhojanalay,180,low
+102,50,16,Aurangabad,Bibi Ka Maqbara,Forest View Cafe,400,mid
+103,51,16,Aurangabad,Aurangabad Caves,Kaas Plateau Tea Stall,100,low
+104,51,16,Aurangabad,Aurangabad Caves,Flower Valley Cafe,350,mid
+105,52,16,Aurangabad,Daulatabad Fort,Dabhosa Falls Snack Point,150,low
+106,52,16,Aurangabad,Daulatabad Fort,Waterfall View Restaurant,500,mid
+107,53,17,Nashik,Trimbakeshwar Temple,Wilson Hills Tea Point,90,low
+108,53,17,Nashik,Trimbakeshwar Temple,Valley Breeze Cafe,350,mid
+109,54,17,Nashik,Sula Vineyards,Toranmal Local Mess,200,low
+110,54,17,Nashik,Sula Vineyards,Hilltop Family Restaurant,450,mid
+111,55,17,Nashik,Pandavleni Caves,Harishchandragad Base Bhojanalay,180,low
+112,55,17,Nashik,Pandavleni Caves,Konkan Kada Cafe,400,mid
+113,56,18,Shirdi,Sai Baba Temple,Lohagad Trekker Snacks,120,low
+114,56,18,Shirdi,Sai Baba Temple,Fort View Restaurant,450,mid
+115,57,18,Shirdi,Dwarkamai,Visapur Plateau Food Stall,150,low
+116,57,18,Shirdi,Dwarkamai,Monsoon Cafe,380,mid
+117,58,18,Shirdi,Chavadi,Sinhagad Kanda Bhaji Stall,120,low
+118,58,18,Shirdi,Chavadi,Fort Top Zunka Bhakar,180,low
+119,59,19,Kolhapur,Mahalaxmi Temple,Rajmachi Village Mess,200,low
+120,59,19,Kolhapur,Mahalaxmi Temple,Firefly Cafe,400,mid
+121,60,19,Kolhapur,Rankala Lake,Devkund Base Snacks,150,low
+122,60,19,Kolhapur,Rankala Lake,Jungle Trail Cafe,350,mid
+123,61,19,Kolhapur,Panhala Fort,Tamhini Ghat Chai Stall,100,low
+124,61,19,Kolhapur,Panhala Fort,Misty Mountain Cafe,380,mid
+125,62,20,Satara,Kaas Plateau,Malshej Ghat Corn Point,120,low
+126,62,20,Satara,Kaas Plateau,Flamingo View Restaurant,450,mid
+127,63,20,Satara,Thoseghar Falls,Rajapur Local Seafood Shack,300,mid
+128,63,20,Satara,Thoseghar Falls,Mango Orchard Cafe,500,mid
+129,64,20,Satara,Sajjangad Fort,Velas Village Bhojanalay,180,low
+130,64,20,Satara,Sajjangad Fort,Turtle Festival Cafe,350,mid
+131,65,21,Raigad,Raigad Fort,Kashid Beach Shack,300,mid
+132,65,21,Raigad,Raigad Fort,White Sand Restaurant,650,high
+133,66,21,Raigad,Hirkani Buruj,Nagaon Beach Chaat Stall,150,low
+134,66,21,Raigad,Hirkani Buruj,Jet Ski Cafe,450,mid
+135,67,21,Raigad,Gangasagar Lake,Aarey Milk Parlour,120,low
+136,67,21,Raigad,Gangasagar Lake,Forest Cafe Aarey,400,mid
+137,68,22,Pratapgad,Pratapgad Fort,Elephanta Jetty Snacks,200,low
+138,68,22,Pratapgad,Pratapgad Fort,Island Heritage Cafe,450,mid
+139,69,22,Pratapgad,Bhavai Devi Temple,Kanheri Cave Canteen,250,low
+140,69,22,Pratapgad,Bhavai Devi Temple,Monk Trail Cafe,400,mid
+141,70,22,Pratapgad,Sunset Point,SGNP Safari Canteen,300,mid
+142,70,22,Pratapgad,Sunset Point,Forest Edge Restaurant,550,mid
+143,71,23,Chiplun,Vashishti River,Girgaon Chowpatty Bhel,100,low
+144,71,23,Chiplun,Vashishti River,Sea View Snack Center,250,low
+145,72,23,Chiplun,Guhagar Beach,Junnar Local Bhojanalay,200,low
+146,72,23,Chiplun,Guhagar Beach,Heritage Fort Cafe,400,mid
+147,73,23,Chiplun,Koyna Backwaters,Bhimashankar Forest Snacks,150,low
+148,73,23,Chiplun,Koyna Backwaters,Nature View Cafe,350,mid
+149,74,24,Dapoli,Dapoli Beach,Rajgad Base Village Mess,200,low
+150,74,24,Dapoli,Dapoli Beach,Fort Plateau Cafe,450,mid
+151,75,24,Dapoli,Ladghar Beach,Panhala Fort Bhojanalay,180,low
+152,75,24,Dapoli,Ladghar Beach,Heritage View Restaurant,400,mid
+153,76,24,Dapoli,Suvarnadurg Fort,Vengurla Beach Food Shack,300,mid
+154,76,24,Dapoli,Suvarnadurg Fort,Sunset Coast Cafe,550,mid
+155,77,25,Harihareshwar,Harihareshwar Temple,Malvan Fish Thali Stall,250,low
+156,77,25,Harihareshwar,Harihareshwar Temple,Malvani Spice Restaurant,500,mid
+157,78,25,Harihareshwar,Harihareshwar Beach,Sawantwadi Palace Cafe,350,mid
+158,78,25,Harihareshwar,Harihareshwar Beach,Lake View Restaurant,600,high
+251,78,25,Harihareshwar,Harihareshwar Beach,Shivneri Misal House,120,Low
+252,78,25,Harihareshwar,Harihareshwar Beach,Fort View Bhojanalay,180,Low
+159,79,25,Harihareshwar,Kalbhairav Temple,Chikhaldara Hill Snacks,120,low
+160,79,25,Harihareshwar,Kalbhairav Temple,Misty Forest Cafe,400,mid
+253,79,25,Harihareshwar,Kalbhairav Temple,Rajgad Desi Dhaba,250,Mid
+254,79,25,Harihareshwar,Kalbhairav Temple,Puneri Misal Junction,150,Low
+161,80,26,Guhagar,Guhagar Beach,Paithan Local Bhojanalay,200,low
+162,80,26,Guhagar,Guhagar Beach,Weaver’s Cafe,350,mid
+255,80,26,Guhagar,Guhagar Beach,Heritage Café Bhor,220,Mid
+256,80,26,Guhagar,Guhagar Beach,Local Tandoor Point,280,Mid
+163,81,26,Guhagar,Velneshwar Temple,Aurangabad Cave Canteen,250,low
+164,81,26,Guhagar,Velneshwar Temple,Heritage Rock Cafe,450,mid
+257,81,26,Guhagar,Velneshwar Temple,Sahyadri Tea Stall,60,Low
+258,81,26,Guhagar,Velneshwar Temple,Mountain Spice Kitchen,300,Mid
+165,82,26,Guhagar,Anjarle Beach,Pench Safari Breakfast Point,300,mid
+166,82,26,Guhagar,Anjarle Beach,Jungle Lodge Restaurant,650,high
+259,82,26,Guhagar,Anjarle Beach,Forest View Café,350,Mid
+260,82,26,Guhagar,Anjarle Beach,Village Rasoi,200,Low
+167,83,27,Amboli,Amboli Falls,Umred Safari Tea Stall,120,low
+168,83,27,Amboli,Amboli Falls,Tiger Trail Cafe,400,mid
+261,83,27,Amboli,Amboli Falls,Sunset Point Snacks,100,Low
+262,83,27,Amboli,Amboli Falls,Hilltop Family Restaurant,320,Mid
+169,84,27,Amboli,Kawalesaad Point,Devgad Beach Snacks,200,low
+170,84,27,Amboli,Kawalesaad Point,Coastal Breeze Restaurant,550,mid
+263,84,27,Amboli,Kawalesaad Point,Riverbank Thali House,240,Mid
+264,84,27,Amboli,Kawalesaad Point,Deshmukh Bhojanalay,180,Low
+171,85,27,Amboli,Sunset Point,Shivneri Fort Base Mess,180,low
+172,85,27,Amboli,Sunset Point,Birthplace View Cafe,350,mid
+265,85,27,Amboli,Sunset Point,Konkan Curry Express,280,Mid
+266,85,27,Amboli,Sunset Point,Sea Breeze Café,450,High
+173,86,28,Lavasa,Dasve Viewpoint,Bhandara Lake Snack Point,150,low
+174,86,28,Lavasa,Dasve Viewpoint,City Lake Restaurant,400,mid
+267,86,28,Lavasa,Dasve Viewpoint,Local Fish Fry Center,350,Mid
+268,86,28,Lavasa,Dasve Viewpoint,Malvani Tadka House,300,Mid
+175,87,28,Lavasa,Temghar Dam,Gondia Market Street Food,120,low
+176,87,28,Lavasa,Temghar Dam,Forest Edge Cafe,350,mid
+269,87,28,Lavasa,Temghar Dam,Coastal Treat Restaurant,500,High
+270,87,28,Lavasa,Temghar Dam,Beachside Chaat Stall,120,Low
+177,88,28,Lavasa,Warasgaon Lake,Chandoli Forest Canteen,250,low
+178,88,28,Lavasa,Warasgaon Lake,Wildlife View Restaurant,500,mid
+271,88,28,Lavasa,Warasgaon Lake,Temple Prasad Bhojanalay,90,Low
+272,88,28,Lavasa,Warasgaon Lake,Ganesh Snacks Corner,110,Low
+179,89,29,Pune,Shaniwar Wada,Koyna Dam Snack Stall,150,low
+180,89,29,Pune,Shaniwar Wada,Reservoir View Cafe,400,mid
+273,89,29,Pune,Shaniwar Wada,Valley View Restaurant,400,High
+274,89,29,Pune,Shaniwar Wada,Hill Food Court,220,Mid
+181,90,29,Pune,Aga Khan Palace,Kolad Rafting Camp Meals,350,mid
+182,90,29,Pune,Aga Khan Palace,Riverside Grill Kolad,650,high
+275,90,29,Pune,Aga Khan Palace,Lakeview Café,380,High
+276,90,29,Pune,Aga Khan Palace,Rural Kitchen Spot,200,Low
+183,91,29,Pune,Sinhagad Fort,Local Village Tea Stall,80,low
+184,91,29,Pune,Sinhagad Fort,Mountain View Cafe,300,mid
+277,91,29,Pune,Sinhagad Fort,Forest Side Tea Point,50,Low
+278,91,29,Pune,Sinhagad Fort,Traveller’s Food Hub,260,Mid
+185,92,30,Mumbai,Gateway of India,Highway Food Plaza,250,low
+186,92,30,Mumbai,Gateway of India,Traveler’s Stop Restaurant,450,mid
+279,92,30,Mumbai,Gateway of India,Highway Star Dhaba,300,Mid
+280,92,30,Mumbai,Gateway of India,Express Biryani Center,240,Mid
+187,93,30,Mumbai,Marine Drive,Lakeside Corn Point,120,low
+188,93,30,Mumbai,Marine Drive,Sunset Lake Cafe,380,mid
+281,93,30,Mumbai,Marine Drive,Old Fort Canteen,160,Low
+282,93,30,Mumbai,Marine Drive,Local Maharashtrian Mess,180,Low
+189,94,30,Mumbai,Elephanta Caves,Forest Entry Snacks,150,low
+190,94,30,Mumbai,Elephanta Caves,Nature Trail Cafe,350,mid
+283,94,30,Mumbai,Elephanta Caves,Sunrise Breakfast Point,120,Low
+284,94,30,Mumbai,Elephanta Caves,Green Valley Restaurant,350,Mid
+191,95,30,Mumbai,Juhu Beach,Temple Prasad Bhojanalay,200,low
+192,95,30,Mumbai,Juhu Beach,Pilgrim Rest Cafe,350,mid
+285,95,30,Mumbai,Juhu Beach,Temple Street Snacks,100,Low
+286,95,30,Mumbai,Juhu Beach,Sattvik Bhojanalay,200,Low
+193,96,31,Nagpur,Deekshabhoomi,Local Breakfast Center,120,low
+194,96,31,Nagpur,Deekshabhoomi,City Cafe Express,300,mid
+287,96,31,Nagpur,Deekshabhoomi,Backwater Café,420,High
+288,96,31,Nagpur,Deekshabhoomi,Konkan Spice Route,380,High
+195,97,31,Nagpur,Ambazari Lake,Market Street Snacks,100,low
+196,97,31,Nagpur,Ambazari Lake,Urban Bites Cafe,350,mid
+289,97,31,Nagpur,Ambazari Lake,Riverside Misal Spot,140,Low
+290,97,31,Nagpur,Ambazari Lake,Family Garden Restaurant,320,Mid
+197,98,31,Nagpur,Sitabuldi Fort,Bus Stand Tea Stall,80,low
+198,98,31,Nagpur,Sitabuldi Fort,Highway Diner,400,mid
+291,98,31,Nagpur,Sitabuldi Fort,Hill Queen Food Court,260,Mid
+292,98,31,Nagpur,Sitabuldi Fort,Cloud View Café,450,High
+199,99,32,Amravati,Chikhaldara Hill View,Old Town Bhojanalay,200,low
+200,99,32,Amravati,Chikhaldara Hill View,Heritage Street Cafe,350,mid
+293,99,32,Amravati,Chikhaldara Hill View,Local Snacks & Chai,80,Low
+294,99,32,Amravati,Chikhaldara Hill View,Traveller’s Restro,300,Mid
+201,100,32,Amravati,Gavilgad Fort,Waterfront Snack Shack,250,low
+202,100,32,Amravati,Gavilgad Fort,Sunset Deck Restaurant,600,high
+295,100,32,Amravati,Gavilgad Fort,Fort Base Tea Stall,60,Low
+296,100,32,Amravati,Gavilgad Fort,Warrior’s Thali House,220,Mid
+203,101,32,Amravati,Melghat Viewpoint,Forest Chai Point,90,low
+204,101,32,Amravati,Melghat Viewpoint,Wildlife Cafe,350,mid
+297,101,32,Amravati,Melghat Viewpoint,Sunset View Restaurant,400,High
+298,101,32,Amravati,Melghat Viewpoint,Evening Chaat Plaza,130,Low
+205,102,32,Amravati,Semadoh Lake,Lake Side Snacks,150,low
+206,102,32,Amravati,Semadoh Lake,Nature Retreat Cafe,400,mid
+299,102,32,Amravati,Semadoh Lake,Lakeside Veg Delight,280,Mid
+300,102,32,Amravati,Semadoh Lake,Quick Bite Corner,120,Low
+207,103,33,Chandrapur,Tadoba Lake,Safari Gate Tea Stall,100,low
+208,103,33,Chandrapur,Tadoba Lake,Jungle View Restaurant,550,mid
+301,103,33,Chandrapur,Tadoba Lake,Heritage Dining Hall,350,High
+302,103,33,Chandrapur,Tadoba Lake,Local Mess Point,170,Low
+209,104,33,Chandrapur,Moharli Gate,Gate Side Snacks,120,low
+210,104,33,Chandrapur,Moharli Gate,Forest Edge Diner,450,mid
+303,104,33,Chandrapur,Moharli Gate,Peak Point Café,480,High
+304,104,33,Chandrapur,Moharli Gate,Trekker’s Energy Meals,240,Mid
+211,105,33,Chandrapur,Kolara Gate,Reserve Entry Cafe,300,mid
+212,105,33,Chandrapur,Kolara Gate,Tiger Trail Restaurant,650,high
+305,105,33,Chandrapur,Kolara Gate,Coastal Curry House,360,High
+306,105,33,Chandrapur,Kolara Gate,Fish Fry Express,300,Mid
+213,106,34,Tadoba,Tadoba Core Zone,Core Zone Canteen,250,low
+214,106,34,Tadoba,Tadoba Core Zone,Safari Lodge Dining,600,high
+307,106,34,Tadoba,Tadoba Core Zone,Village Taste Bhojanalay,190,Low
+308,106,34,Tadoba,Tadoba Core Zone,Traditional Thali Center,230,Mid
+215,107,34,Tadoba,Agarzari Buffer,Buffer Zone Tea Stall,90,low
+216,107,34,Tadoba,Agarzari Buffer,Forest Camp Cafe,350,mid
+309,107,34,Tadoba,Agarzari Buffer,Scenic Route Café,420,High
+310,107,34,Tadoba,Agarzari Buffer,Highway Snacks Stop,140,Low
+217,108,34,Tadoba,Panchdhara Viewpoint,Panchdhara Snacks,150,low
+218,108,34,Tadoba,Panchdhara Viewpoint,Viewpoint Cafe,400,mid
+311,108,34,Tadoba,Panchdhara Viewpoint,Backpacker’s Food Hub,260,Mid
+312,108,34,Tadoba,Panchdhara Viewpoint,Homestyle Kitchen,210,Low
+219,109,35,Melghat,Chikhaldara Lake,Hill Lake Snacks,120,low
+220,109,35,Melghat,Chikhaldara Lake,Calm Waters Cafe,350,mid
+313,109,35,Melghat,Chikhaldara Lake,Market Street Chaat,90,Low
+314,109,35,Melghat,Chikhaldara Lake,Urban Spice Restaurant,340,Mid
+221,110,35,Melghat,Gawilgarh Fort,Fort Base Tea Stall,100,low
+222,110,35,Melghat,Gawilgarh Fort,Heritage Hill Cafe,400,mid
+315,110,35,Melghat,Gawilgarh Fort,Fort Edge Café,390,High
+316,110,35,Melghat,Gawilgarh Fort,Local Breakfast Stall,80,Low
+223,111,35,Melghat,Panchbol Point,Echo Point Snack Stall,120,low
+224,111,35,Melghat,Panchbol Point,Panchbol Cafe,350,mid
+317,111,35,Melghat,Panchbol Point,Mountain View Restaurant,450,High
+318,111,35,Melghat,Panchbol Point,Simple Veg Corner,160,Low
+225,112,36,Solapur,Siddheshwar Temple,Temple Prasad Stall,180,low
+226,112,36,Solapur,Siddheshwar Temple,City Temple Cafe,350,mid
+319,112,36,Solapur,Siddheshwar Temple,River Bend Café,360,High
+320,112,36,Solapur,Siddheshwar Temple,Fresh Catch Kitchen,320,Mid
+227,113,36,Solapur,Great Indian Bustard Sanctuary,Bird Sanctuary Snacks,200,low
+228,113,36,Solapur,Great Indian Bustard Sanctuary,Watcher’s Cafe,400,mid
+321,113,36,Solapur,Great Indian Bustard Sanctuary,Forest Hut Café,400,High
+322,113,36,Solapur,Great Indian Bustard Sanctuary,Tea & Pakora Point,70,Low
+229,114,36,Solapur,Hipparga Lake,Lake View Snacks,150,low
+230,114,36,Solapur,Hipparga Lake,Waterfront Diner,450,mid
+323,114,36,Solapur,Hipparga Lake,Old Town Bhojanalay,210,Low
+324,114,36,Solapur,Hipparga Lake,Spice Junction,290,Mid
+231,115,37,Akkalkot,Akkalkot Temple,Pilgrim Bhojanalay,180,low
+232,115,37,Akkalkot,Akkalkot Temple,Temple Street Cafe,300,mid
+325,115,37,Akkalkot,Akkalkot Temple,Sunlit Garden Café,430,High
+326,115,37,Akkalkot,Akkalkot Temple,Local Snack Bar,110,Low
+233,116,37,Akkalkot,Swami Samarth Math,Math Canteen,200,low
+234,116,37,Akkalkot,Swami Samarth Math,Spiritual Cafe,350,mid
+327,116,37,Akkalkot,Swami Samarth Math,Cliffside Restaurant,480,High
+328,116,37,Akkalkot,Swami Samarth Math,Trekker’s Fuel Stop,260,Mid
+235,117,37,Akkalkot,Narayanpur Dam,Dam View Tea Stall,100,low
+236,117,37,Akkalkot,Narayanpur Dam,Reservoir Cafe,380,mid
+329,117,37,Akkalkot,Narayanpur Dam,Harbor View Seafood,520,High
+330,117,37,Akkalkot,Narayanpur Dam,Seafood Fry Stall,280,Mid
+237,118,38,Osmanabad,Tulja Bhavani Temple,Temple Prasad Hall,200,low
+238,118,38,Osmanabad,Tulja Bhavani Temple,Devotional Dining,350,mid
+331,118,38,Osmanabad,Tulja Bhavani Temple,Heritage Street Food,130,Low
+332,118,38,Osmanabad,Tulja Bhavani Temple,Classic Maharashtrian Mess,200,Low
+239,119,38,Osmanabad,Gomukh Tirth,Gomukh Snack Point,120,low
+240,119,38,Osmanabad,Gomukh Tirth,Sacred Spring Cafe,300,mid
+333,119,38,Osmanabad,Gomukh Tirth,Valley Breeze Café,410,High
+334,119,38,Osmanabad,Gomukh Tirth,Family Food Plaza,300,Mid
+241,120,38,Osmanabad,Tuljapur Fort,Fort Entry Tea Stall,90,low
+242,120,38,Osmanabad,Tuljapur Fort,Historic View Cafe,350,mid
+335,120,38,Osmanabad,Tuljapur Fort,Sunrise Café,350,High
+336,120,38,Osmanabad,Tuljapur Fort,Morning Poha Center,90,Low
+243,121,39,Tuljapur,Tuljapur Ghat,Ghat Road Snacks,120,low
+244,121,39,Tuljapur,Tuljapur Ghat,Scenic Route Cafe,350,mid
+337,121,39,Tuljapur,Tuljapur Ghat,Lake Edge Restaurant,420,High
+338,121,39,Tuljapur,Tuljapur Ghat,Quick Lunch Counter,150,Low
+245,122,39,Tuljapur,Ramling Temple,Temple Lane Bhojanalay,200,low
+246,122,39,Tuljapur,Ramling Temple,Traditional Veg Cafe,300,mid
+339,122,39,Tuljapur,Ramling Temple,Forest Retreat Café,460,High
+340,122,39,Tuljapur,Ramling Temple,Local Meals Point,180,Low
+247,123,39,Tuljapur,Yedshi Ramling,Temple Complex Snacks,150,low
+248,123,39,Tuljapur,Yedshi Ramling,Pilgrim Cafe,350,mid
+341,123,39,Tuljapur,Yedshi Ramling,Ridge Top Restaurant,480,High
+342,123,39,Tuljapur,Yedshi Ramling,Simple Thali House,220,Mid
+249,124,40,Beed,Beed Fort,Fort Base Snacks,120,low
+250,124,40,Beed,Beed Fort,Heritage Rest Stop,400,mid
+343,124,40,Beed,Beed Fort,Temple Road Snacks,100,Low
+344,124,40,Beed,Beed Fort,Pure Veg Bhojanalay,200,Low
+345,125,40,Beed,Masjid-e-Hamidia,Backwater Breeze Café,430,High
+346,125,40,Beed,Masjid-e-Hamidia,Konkan Veg Kitchen,260,Mid
+347,126,40,Beed,Kapil Dhara,Old Fort Restaurant,380,High
+348,126,40,Beed,Kapil Dhara,Traveler’s Meal Stop,240,Mid
+349,127,41,Jalgaon,Ajanta Viewpoint,Sunset Garden Dining,450,High
+350,127,41,Jalgaon,Ajanta Viewpoint,Chaat & Juice Center,120,Low
+351,128,41,Jalgaon,Mehrun Lake,Hill Base Restaurant,320,Mid
+352,128,41,Jalgaon,Mehrun Lake,Tea & Bun Maska Stall,70,Low
+353,129,41,Jalgaon,Gandhi Research Foundation,Scenic Lake Café,400,High
+354,129,41,Jalgaon,Gandhi Research Foundation,Local Rice Plate House,190,Low
+355,130,42,Dhule,Laling Fort,Peak Point Dining,480,High
+356,130,42,Dhule,Laling Fort,Energy Snack Bar,140,Low
+357,131,42,Dhule,Songir Fort,Coastal Crown Restaurant,520,High
+358,131,42,Dhule,Songir Fort,Seafood Express Stall,300,Mid
+359,132,42,Dhule,Bhamer Fort,Temple View Bhojanalay,210,Low
+360,132,42,Dhule,Bhamer Fort,Quick Veg Bites,120,Low
+361,133,43,Nanded,Hazur Sahib,Forest View Dining,420,High
+362,133,43,Nanded,Hazur Sahib,Simple Lunch Home,180,Low
+363,134,43,Nanded,Godavari Ghat,Heritage Courtyard Café,460,High
+364,134,43,Nanded,Godavari Ghat,Local Breakfast Hub,100,Low
+365,135,43,Nanded,Kaleshwar Temple,Riverside Fine Dine,550,High
+366,135,43,Nanded,Kaleshwar Temple,Family Fish Thali House,320,Mid
+367,136,44,Parbhani,Turabul Haq Dargah,Mountain Mist Café,430,High
+368,136,44,Parbhani,Turabul Haq Dargah,Hot Chai & Snacks,80,Low
+369,137,44,Parbhani,Jintur Gate,Old Market Bhojanalay,200,Low
+370,137,44,Parbhani,Jintur Gate,Spice Box Restaurant,310,Mid
+371,138,44,Parbhani,Pathri Fort,Sunset Cliff Café,480,High
+372,138,44,Parbhani,Pathri Fort,Trekker’s Refreshments,150,Low
+373,139,45,Hingoli,Aundha Nagnath Temple,Lakeside Royal Dining,520,High
+374,139,45,Hingoli,Aundha Nagnath Temple,Quick South Indian Point,140,Low
+375,140,45,Hingoli,Sant Namdev Sansthan,Forest Lane Café,400,High
+376,140,45,Hingoli,Sant Namdev Sansthan,Village Veg Kitchen,220,Mid
+377,141,45,Hingoli,Kayadhu River,Harbor Lights Restaurant,560,High
+378,141,45,Hingoli,Kayadhu River,Sea Snack Corner,160,Low
+379,142,46,Washim,Washim Fort,Temple Gully Snacks,90,Low
+380,142,46,Washim,Washim Fort,Sattvik Thali Center,210,Low
+381,143,46,Washim,Balaji Temple,Hill Horizon Café,450,High
+382,143,46,Washim,Balaji Temple,Local Lunch Stop,190,Low
+383,144,46,Washim,Ansing Fort,Backwater Bliss Dining,500,High
+384,144,46,Washim,Ansing Fort,Fresh Catch Fry House,330,Mid
+385,145,47,Wardha,Sevagram Ashram,Heritage Hill Restaurant,420,High
+386,145,47,Wardha,Sevagram Ashram,Simple Veg Meals,170,Low
+387,146,47,Wardha,Vishwa Shanti Stupa,Ridge View Café,460,High
+388,146,47,Wardha,Vishwa Shanti Stupa,Chai Pakora Junction,80,Low
+389,147,47,Wardha,Bor Dam,Sunrise Garden Restaurant,430,High
+390,147,47,Wardha,Bor Dam,Poha Upma Center,100,Low
+391,148,48,Yavatmal,Tipeshwar Sanctuary,Coastal Pearl Dining,540,High
+392,148,48,Yavatmal,Tipeshwar Sanctuary,Fish Curry Express,310,Mid
+393,149,48,Yavatmal,Painganga River,Forest Crown Café,480,High
+394,149,48,Yavatmal,Painganga River,Local Snack Stop,130,Low
+395,150,48,Yavatmal,Mahur Temple,Valley Luxe Restaurant,520,High
+396,150,48,Yavatmal,Mahur Temple,Family Veg Kitchen,260,Mid
+397,151,49,Karjat,Karjat Waterfalls,Temple Side Bhojanalay,200,Low
+398,151,49,Karjat,Karjat Waterfalls,Quick Bites Corner,120,Low
+399,152,49,Karjat,Kondana Caves,Lakefront Fine Dine,560,High
+400,152,49,Karjat,Kondana Caves,Evening Street Snacks,110,Low
+401,153,49,Karjat,Peth Fort,Riverside Green Café,420,High
+402,153,49,Karjat,Peth Fort,Local Veg Thali House,210,Low
+403,154,50,Bhimashankar,Bhimashankar Temple,Sunset Peak Dining,480,High
+404,154,50,Bhimashankar,Bhimashankar Temple,Trekker Snacks Point,150,Low
+405,155,50,Bhimashankar,Hanuman Lake,Temple Courtyard Bhojanalay,190,Low
+406,155,50,Bhimashankar,Hanuman Lake,Satvik Meals Center,220,Mid
+407,156,50,Bhimashankar,Bhimashankar Sanctuary,Forest Whisper Café,450,High
+408,156,50,Bhimashankar,Bhimashankar Sanctuary,Tea Pakoda Stop,80,Low
+409,157,51,Kaas Plateau,Kaas Plateau Trail,Valley Treat Restaurant,380,High
+410,157,51,Kaas Plateau,Kaas Plateau Trail,Homestyle Lunch Kitchen,200,Low
+411,158,51,Kaas Plateau,Kaas Lake,Old Fort View Café,420,High
+412,158,51,Kaas Plateau,Kaas Lake,Traveler’s Meal Hub,260,Mid
+413,159,51,Kaas Plateau,Plateau Viewpoint,Scenic Ridge Restaurant,470,High
+414,159,51,Kaas Plateau,Plateau Viewpoint,Quick Energy Bites,140,Low
+415,160,52,Jawhar,Dabhosa Falls,Backwater Breeze Dining,500,High
+416,160,52,Jawhar,Dabhosa Falls,Konkan Veg Delight,260,Mid
+417,161,52,Jawhar,Shirpamal,Harbor Edge Seafood,540,High
+418,161,52,Jawhar,Shirpamal,Sea Fry Junction,310,Mid
+419,162,52,Jawhar,Hanuman Point,Temple Street Bhojanalay,200,Low
+420,162,52,Jawhar,Hanuman Point,Fresh Snack Corner,120,Low
+421,163,53,Wilson Hills,Sunset Point Wilson,Hilltop Crown Café,480,High
+422,163,53,Wilson Hills,Sunset Point Wilson,Local Rice Plate Center,190,Low
+423,164,53,Wilson Hills,Barumal Point,Lake View Royal Dining,520,High
+424,164,53,Wilson Hills,Barumal Point,Evening Tea Snacks,110,Low
+425,165,53,Wilson Hills,Ozar Falls,Forest Garden Café,460,High
+426,165,53,Wilson Hills,Ozar Falls,Village Rasoi,230,Mid
+427,166,54,Toranmal,Toranmal Lake,Sunrise Point Restaurant,430,High
+428,166,54,Toranmal,Toranmal Lake,Poha & Chai Center,90,Low
+429,167,54,Toranmal,Yashwant Lake,Coastal Bay Fine Dine,560,High
+430,167,54,Toranmal,Yashwant Lake,Fish Curry Express,320,Mid
+431,168,54,Toranmal,Gorakhnath Temple,Temple View Sattvik Bhojanalay,210,Low
+432,168,54,Toranmal,Gorakhnath Temple,Quick Veg Bites,130,Low
+433,169,55,Harishchandragad,Konkan Kada,Mountain Edge Café,450,High
+434,169,55,Harishchandragad,Konkan Kada,Simple Home Food,180,Low
+435,170,55,Harishchandragad,Kedareshwar Cave,Old Market Heritage Dining,390,High
+436,170,55,Harishchandragad,Kedareshwar Cave,Street Meal Corner,160,Low
+437,171,55,Harishchandragad,Taramati Peak,Cliff Side Sunset Café,480,High
+438,171,55,Harishchandragad,Taramati Peak,Trekker’s Refreshment Stop,150,Low
+439,172,56,Lohagad,Lohagad Fort,Lake Breeze Fine Dine,530,High
+440,172,56,Lohagad,Lohagad Fort,South Indian Snack Hub,140,Low
+441,173,56,Lohagad,Bhaja Caves,Forest Trail Café,420,High
+442,173,56,Lohagad,Bhaja Caves,Local Veg Mess,200,Low
+443,174,56,Lohagad,Vinchukata,Harbor Lights Seafood,570,High
+444,174,56,Lohagad,Vinchukata,Sea Snack Station,180,Low
+445,175,57,Visapur Fort,Visapur Fort,Temple Road Snacks Center,100,Low
+446,175,57,Visapur Fort,Visapur Fort,Pure Veg Thali Ghar,210,Low
+447,176,57,Visapur Fort,Visapur Village,Ridge Line Café,460,High
+448,176,57,Visapur Fort,Visapur Village,Tea Bun Maska Stall,80,Low
+449,177,57,Visapur Fort,Visapur Waterfalls,Sunrise Garden Fine Dine,500,High
+450,177,57,Visapur Fort,Visapur Waterfalls,Quick Breakfast Stop,110,Low
+451,178,58,Sinhagad,Sinhagad Fort Top,Backwater Pearl Dining,540,High
+452,178,58,Sinhagad,Sinhagad Fort Top,Fresh Catch Fry House,330,Mid
+453,179,58,Sinhagad,Kalyan Darwaja,Heritage Valley Restaurant,420,High
+454,179,58,Sinhagad,Kalyan Darwaja,Simple Veg Plate,170,Low
+455,180,58,Sinhagad,Pune Darwaja,Peak View Café,470,High
+456,180,58,Sinhagad,Pune Darwaja,Energy Bar Snacks,140,Low
+457,181,59,Rajmachi,Rajmachi Fort,Coastal Crown Seafood,560,High
+458,181,59,Rajmachi,Rajmachi Fort,Seafood Thali Center,340,Mid
+459,182,59,Rajmachi,Shrivardhan Fort,Temple Courtyard Café,230,Mid
+460,182,59,Rajmachi,Shrivardhan Fort,Street Veg Bites,120,Low
+461,183,59,Rajmachi,Manaranjan Fort,Forest Canopy Café,480,High
+462,183,59,Rajmachi,Manaranjan Fort,Local Lunch Box Point,190,Low
+463,184,60,Devkund,Devkund Waterfall,Lakefront Heritage Dining,520,High
+464,184,60,Devkund,Devkund Waterfall,Quick Rice Plate Stop,160,Low
+465,185,60,Devkund,Bhira Dam,Sunset Ridge Fine Dine,550,High
+466,185,60,Devkund,Bhira Dam,Chaat & Juice Bar,130,Low
+467,186,60,Devkund,Forest Trail,Hill Base Family Restaurant,340,Mid
+468,186,60,Devkund,Forest Trail,Tea Pakoda Center,90,Low
+469,187,61,Tamhini Ghat,Tamhini Viewpoint,Harbor View Royal Dining,580,High
+470,187,61,Tamhini Ghat,Tamhini Viewpoint,Sea Fry Express,320,Mid
+471,188,61,Tamhini Ghat,Plus Valley,Temple Side Bhojanalay,210,Low
+472,188,61,Tamhini Ghat,Plus Valley,Quick Veg Snacks,120,Low
+473,189,61,Tamhini Ghat,Waterfall Point,Forest Crown Fine Dine,520,High
+474,189,61,Tamhini Ghat,Waterfall Point,Simple Home Kitchen,180,Low
+475,190,62,Malshej Ghat,Malshej Falls,Old Town Heritage Café,460,High
+476,190,62,Malshej Ghat,Malshej Falls,Local Breakfast Hub,100,Low
+477,191,62,Malshej Ghat,Flamingo Hill,River Bend Luxury Dining,570,High
+478,191,62,Malshej Ghat,Flamingo Hill,Family Fish Thali,340,Mid
+479,192,62,Malshej Ghat,Shivneri View,Misty Mountain Café,440,High
+480,192,62,Malshej Ghat,Shivneri View,Hot Chai Snacks Stall,80,Low
+481,193,63,Rajapur,Rajapur Ghat,Market Street Bhojanalay,200,Low
+482,193,63,Rajapur,Rajapur Ghat,Spice Route Restaurant,310,Mid
+483,194,63,Rajapur,Mango Orchards,Cliff Horizon Café,490,High
+484,194,63,Rajapur,Mango Orchards,Trekker’s Food Stop,150,Low
+485,195,63,Rajapur,Temple Complex,Lake Royal Fine Dine,560,High
+486,195,63,Rajapur,Temple Complex,South Indian Tiffin Center,140,Low
+487,196,64,Velas,Velas Beach,Forest Path Café,430,High
+488,196,64,Velas,Velas Beach,Village Veg Meals,220,Mid
+489,197,64,Velas,Velas Turtle Festival,Harbor Pearl Dining,590,High
+490,197,64,Velas,Velas Turtle Festival,Sea Snack Corner,170,Low
+491,198,64,Velas,Anjarle Lighthouse,Temple Lane Snacks,90,Low
+492,198,64,Velas,Anjarle Lighthouse,Sattvik Thali Ghar,210,Low
+493,199,65,Kashid,Kashid Beach,Hill Breeze Café,460,High
+494,199,65,Kashid,Kashid Beach,Local Lunch Stop,190,Low
+495,200,65,Kashid,Korlai Fort,Backwater Bliss Fine Dine,550,High
+496,200,65,Kashid,Korlai Fort,Fresh Fish Fry House,330,Mid
+497,201,65,Kashid,Revdanda Beach,Heritage Hilltop Restaurant,430,High
+498,201,65,Kashid,Revdanda Beach,Simple Veg Bhojan,170,Low
+499,202,66,Nagaon,Nagaon Beach Main,Ridge View Luxury Café,500,High
+500,202,66,Nagaon,Nagaon Beach Main,Chai Pakora Junction,80,Low
+501,203,66,Nagaon,Nagaon Jet Ski,Sunrise Garden Dining,450,High
+502,203,66,Nagaon,Nagaon Jet Ski,Poha Upma Center,100,Low
+503,204,66,Nagaon,Nagaon Market,Coastal Gem Seafood,580,High
+504,204,66,Nagaon,Nagaon Market,Fish Curry Meals,320,Mid
+505,205,67,Aarey Colony,Aarey Forest,Forest Royal Café,520,High
+506,205,67,Aarey Colony,Aarey Forest,Local Snack Bar,130,Low
+507,206,67,Aarey Colony,Aarey Lake,Valley Luxe Fine Dine,560,High
+508,206,67,Aarey Colony,Aarey Lake,Family Veg Kitchen,260,Mid
+509,207,67,Aarey Colony,Chota Kashmir,Temple View Bhojanalay,200,Low
+510,207,67,Aarey Colony,Chota Kashmir,Quick Bites Counter,120,Low
+511,208,68,Elephanta Island,Elephanta Cave 1,Lake Edge Royal Dining,580,High
+512,208,68,Elephanta Island,Elephanta Cave 1,Evening Street Snacks,110,Low
+513,209,68,Elephanta Island,Elephanta Cave 2,Forest Retreat Fine Dine,540,High
+514,209,68,Elephanta Island,Elephanta Cave 2,Local Meal Center,190,Low
+515,210,68,Elephanta Island,Canon Hill,Ridge Peak Café,490,High
+516,210,68,Elephanta Island,Canon Hill,Energy Snack Hub,140,Low
+517,211,69,Kanheri Caves,Kanheri Cave 1,Harbor Lights Luxury Dining,600,High
+518,211,69,Kanheri Caves,Kanheri Cave 1,Seafood Fry Station,330,Mid
+519,212,69,Kanheri Caves,Kanheri Cave 3,Temple Corner Bhojanalay,210,Low
+520,212,69,Kanheri Caves,Kanheri Cave 3,Fresh Veg Snacks,120,Low
+521,213,69,Kanheri Caves,Kanheri Plateau,Hill Horizon Fine Dine,520,High
+522,213,69,Kanheri Caves,Kanheri Plateau,Local Rice Plate Center,190,Low
+523,214,70,Sanjay Gandhi National Park,SGNP Safari,Backwater Royal Café,560,High
+524,214,70,Sanjay Gandhi National Park,SGNP Safari,Quick Lunch Stop,160,Low
+525,215,70,Sanjay Gandhi National Park,Yeoor Hills,Sunset Garden Luxury Dining,590,High
+526,215,70,Sanjay Gandhi National Park,Yeoor Hills,Chaat Plaza,130,Low
+527,216,70,Sanjay Gandhi National Park,Tulsi Lake,Mountain Base Restaurant,350,Mid
+528,216,70,Sanjay Gandhi National Park,Tulsi Lake,Tea Bun Maska Stall,80,Low
+529,217,71,Girgaon Chowpatty,Girgaon Chowpatty Beach,Harbor Crown Seafood,620,High
+530,217,71,Girgaon Chowpatty,Girgaon Chowpatty Beach,Sea Fry Express,340,Mid
+531,218,71,Girgaon Chowpatty,Immersion Ghat,Temple Road Bhojanalay,210,Low
+532,218,71,Girgaon Chowpatty,Immersion Ghat,Quick Veg Meals,120,Low
+533,219,71,Girgaon Chowpatty,Marine Aquarium,Forest Pearl Fine Dine,560,High
+534,219,71,Girgaon Chowpatty,Marine Aquarium,Simple Home Food,180,Low
+535,220,72,Junnar,Junnar Caves,Old Market Heritage Dining,480,High
+536,220,72,Junnar,Junnar Caves,Local Breakfast Corner,100,Low
+537,221,72,Junnar,Shivneri Fort,Riverfront Luxury Restaurant,600,High
+538,221,72,Junnar,Shivneri Fort,Family Fish Thali Center,350,Mid
+539,222,72,Junnar,Lenyadri Caves,Mist Valley Café,450,High
+540,222,72,Junnar,Lenyadri Caves,Hot Chai Snacks,80,Low
+541,223,73,Bhimashankar Wildlife Sanctuary,Bhimashankar Forest Trail,Market Lane Bhojanalay,200,Low
+542,223,73,Bhimashankar Wildlife Sanctuary,Bhimashankar Forest Trail,Spice Junction Restaurant,320,Mid
+543,224,73,Bhimashankar Wildlife Sanctuary,Gupt Bhimashankar,Cliff Crown Café,510,High
+544,224,73,Bhimashankar Wildlife Sanctuary,Gupt Bhimashankar,Trekker Food Stop,150,Low
+545,225,73,Bhimashankar Wildlife Sanctuary,Nagphani Point,Lake Palace Fine Dine,590,High
+546,225,73,Bhimashankar Wildlife Sanctuary,Nagphani Point,South Indian Meals Point,150,Low
+547,226,74,Rajgad,Rajgad Fort Top,Forest Walk Café,440,High
+548,226,74,Rajgad,Rajgad Fort Top,Village Rasoi,230,Mid
+549,227,74,Rajgad,Bale Killa,Harbor Pearl Luxury Dining,620,High
+550,227,74,Rajgad,Bale Killa,Sea Snack Junction,180,Low
+551,228,74,Rajgad,Sanjeevani Machi,Temple Galli Snacks,90,Low
+552,228,74,Rajgad,Sanjeevani Machi,Sattvik Veg Thali Ghar,210,Low
+553,229,75,Panhala,Panhala Fort Top,Hill Crown Café,480,High
+554,229,75,Panhala,Panhala Fort Top,Local Lunch Counter,190,Low
+555,230,75,Panhala,Teen Darwaja,Backwater Jewel Fine Dine,580,High
+556,230,75,Panhala,Teen Darwaja,Fresh Catch Meals,340,Mid
+557,231,75,Panhala,Tabak Udyan,Heritage Ridge Restaurant,450,High
+558,231,75,Panhala,Tabak Udyan,Simple Veg Plate,170,Low
+559,232,76,Vengurla,Vengurla Beach,Peak View Luxury Café,520,High
+560,232,76,Vengurla,Vengurla Beach,Chai Pakoda Hub,80,Low
+561,233,76,Vengurla,Redi Ganpati Temple,Sunrise Valley Dining,470,High
+562,233,76,Vengurla,Redi Ganpati Temple,Poha Breakfast Stop,100,Low
+563,234,76,Vengurla,Kalavi Beach,Coastal Diamond Seafood,600,High
+564,234,76,Vengurla,Kalavi Beach,Fish Curry House,330,Mid
+565,235,77,Malvan,Malvan Beach,Forest Crown Royal Café,560,High
+566,235,77,Malvan,Malvan Beach,Local Snack Point,130,Low
+567,236,77,Malvan,Rock Garden,Valley View Fine Dine,580,High
+568,236,77,Malvan,Rock Garden,Family Veg Thali Center,260,Mid
+569,237,77,Malvan,Tarkarli Jetty,Temple Side Bhojanalay,200,Low
+570,237,77,Malvan,Tarkarli Jetty,Quick Bite Counter,120,Low
+571,238,78,Sawantwadi,Sawantwadi Palace,Lake Horizon Luxury Dining,600,High
+572,238,78,Sawantwadi,Sawantwadi Palace,Evening Street Food,110,Low
+573,239,78,Sawantwadi,Moti Talao,Forest Escape Fine Dine,550,High
+574,239,78,Sawantwadi,Moti Talao,Local Meal Kitchen,190,Low
+575,240,78,Sawantwadi,Narayan Rane Park,Ridge Summit Café,500,High
+576,240,78,Sawantwadi,Narayan Rane Park,Energy Snack Bar,140,Low
+577,241,79,Chikhaldara,Chikhaldara Wildlife View,Harbor Lights Royal Dining,630,High
+578,241,79,Chikhaldara,Chikhaldara Wildlife View,Seafood Fry Counter,340,Mid
+579,242,79,Chikhaldara,Bhima Kund,Temple Court Bhojanalay,210,Low
+580,242,79,Chikhaldara,Bhima Kund,Fresh Veg Snack Stall,120,Low
+581,243,79,Chikhaldara,Kalapani Lake,Hill Edge Fine Dine,540,High
+582,243,79,Chikhaldara,Kalapani Lake,Local Rice Plate Center,190,Low
+583,244,80,Paithan,Paithani Weaving Center,Backwater Palace Café,580,High
+584,244,80,Paithan,Paithani Weaving Center,Quick Lunch Counter,160,Low
+585,245,80,Paithan,Jayakwadi Dam,Sunset Ridge Luxury Dining,610,High
+586,245,80,Paithan,Jayakwadi Dam,Chaat Juice Plaza,130,Low
+587,246,80,Paithan,Sant Eknath Garden,Mountain Foot Restaurant,360,Mid
+588,246,80,Paithan,Sant Eknath Garden,Tea Bun Maska Point,80,Low
+589,247,81,Aurangabad Caves,Aurangabad Cave 6,Harbor Crown Elite Seafood,650,High
+590,247,81,Aurangabad Caves,Aurangabad Cave 6,Sea Fry Express,350,Mid
+591,248,81,Aurangabad Caves,Aurangabad Cave 7,Temple Road Bhojanalay,210,Low
+592,248,81,Aurangabad Caves,Aurangabad Cave 7,Quick Veg Lunch,120,Low
+593,249,81,Aurangabad Caves,Cave Viewpoint,Forest Pearl Royal Dining,600,High
+594,249,81,Aurangabad Caves,Cave Viewpoint,Simple Home Kitchen,180,Low
+595,250,82,Pench National Park,Pench Safari Zone,Old Town Heritage Café,490,High
+596,250,82,Pench National Park,Pench Safari Zone,Local Breakfast Stop,100,Low
+597,251,82,Pench National Park,Turai Gate,Riverfront Signature Dining,620,High
+598,251,82,Pench National Park,Turai Gate,Family Fish Thali House,350,Mid
+599,252,82,Pench National Park,Totladoh Dam,Misty Peak Café,460,High
+600,252,82,Pench National Park,Totladoh Dam,Hot Chai Snacks Stall,80,Low

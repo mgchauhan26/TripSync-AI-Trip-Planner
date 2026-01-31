@@ -1,0 +1,438 @@
+spot_id,place_id,place_name,state,spot_name,description,num_dining_options,num_stay_options,avg_dining_price,avg_stay_price,min_dining_price,max_dining_price,min_stay_price,max_stay_price
+1,1,Mahabaleshwar,Maharashtra,Venna Lake,Popular lake for boating and leisure,3,2,400.0,2000.0,150,700,1200,2800
+2,1,Mahabaleshwar,Maharashtra,Arthur Seat,Scenic viewpoint overlooking deep valleys,2,2,250.0,2850.0,100,400,1500,4200
+3,1,Mahabaleshwar,Maharashtra,Wilson Point,Highest point famous for sunrise,2,2,210.0,3500.0,120,300,2200,4800
+4,1,Mahabaleshwar,Maharashtra,Mapro Garden,Famous food and strawberry outlet,2,2,475.0,3500.0,350,600,1800,5200
+5,2,Lonavala,Maharashtra,Bhushi Dam,Seasonal waterfall and picnic spot,3,2,226.67,4250.0,80,450,2500,6000
+6,2,Lonavala,Maharashtra,Lion Point,Valley viewpoint with misty views,2,2,285.0,3000.0,70,500,1500,4500
+7,2,Lonavala,Maharashtra,Rajmachi Point,Viewpoint facing Rajmachi fort,2,2,300.0,3750.0,200,400,2000,5500
+8,2,Lonavala,Maharashtra,Karla Caves,Ancient Buddhist rock cut caves,2,2,235.0,3000.0,120,350,1200,4800
+9,3,Khandala,Maharashtra,Duke Nose,Cliff viewpoint and trekking spot,2,2,320.0,2450.0,90,550,1400,3500
+10,3,Khandala,Maharashtra,Amrutanjan Point,Popular valley viewpoint,2,2,175.0,3500.0,100,250,1800,5200
+11,3,Khandala,Maharashtra,Shooting Point,Film shooting location,2,2,450.0,2900.0,300,600,1600,4200
+12,4,Matheran,Maharashtra,Panorama Point,Wide panoramic hill views,2,2,250.0,3250.0,120,380,1700,4800
+13,4,Matheran,Maharashtra,Charlotte Lake,Water reservoir and picnic area,2,2,325.0,3750.0,150,500,2000,5500
+14,4,Matheran,Maharashtra,Echo Point,Natural echo location,2,2,190.0,3600.0,80,300,2200,5000
+15,4,Matheran,Maharashtra,One Tree Hill,Unique hilltop viewpoint,2,2,275.0,2500.0,100,450,1200,3800
+16,5,Alibaug,Maharashtra,Alibaug Beach,Main beach with sunset views,2,2,475.0,4400.0,250,700,2600,6200
+17,5,Alibaug,Maharashtra,Kolaba Fort,Sea fort near coastline,2,2,240.0,3150.0,80,400,1800,4500
+18,5,Alibaug,Maharashtra,Varsoli Beach,Quiet beach near town,2,2,475.0,4650.0,350,600,2800,6500
+19,5,Alibaug,Maharashtra,Nagaon Beach,Water sports beach,2,2,350.0,2500.0,200,500,1000,4000
+20,6,Murud,Maharashtra,Murud Janjira Fort,Historic island fort,2,2,270.0,2100.0,90,450,1200,3000
+21,6,Murud,Maharashtra,Murud Beach,Long sandy beach,2,2,350.0,3500.0,100,600,1800,5200
+22,6,Murud,Maharashtra,Datta Mandir,Local religious temple,2,2,215.0,3150.0,180,250,1500,4800
+23,7,Tarkarli,Maharashtra,Tarkarli Beach,Clear water beach,2,2,475.0,2500.0,300,650,1400,3600
+24,7,Tarkarli,Maharashtra,Devbagh Beach,Backwater and beach confluence,2,2,550.0,2900.0,400,700,1600,4200
+25,7,Tarkarli,Maharashtra,Karli Backwaters,Boat ride experience,2,2,235.0,2600.0,120,350,1300,3900
+26,8,Ganpatipule,Maharashtra,Ganpatipule Temple,Beachside Ganesh temple,2,2,275.0,3150.0,150,400,1800,4500
+27,8,Ganpatipule,Maharashtra,Ganpatipule Beach,White sand beach,2,2,500.0,3600.0,300,700,2000,5200
+28,8,Ganpatipule,Maharashtra,Jaigad Fort,Fort overlooking creek,2,2,220.0,2600.0,90,350,1400,3800
+29,9,Ratnagiri,Maharashtra,Bhatye Beach,Scenic Ratnagiri beach,2,2,350.0,4800.0,200,500,2600,7000
+30,9,Ratnagiri,Maharashtra,Thibaw Palace,Historical palace,2,2,475.0,2850.0,300,650,1500,4200
+31,9,Ratnagiri,Maharashtra,Pawas Village,Spiritual retreat village,2,2,275.0,3400.0,200,350,1800,5000
+32,10,Sindhudurg,Maharashtra,Sindhudurg Fort,Historic sea fort,2,2,375.0,4250.0,150,600,2000,6500
+33,10,Sindhudurg,Maharashtra,Malvan Beach,Popular Konkan beach,2,2,350.0,2900.0,250,450,1600,4200
+34,10,Sindhudurg,Maharashtra,Tsunami Island,Water sports location,2,2,525.0,2500.0,300,750,1400,3600
+35,11,Panchgani,Maharashtra,Table Land,Asia largest plateau,2,2,240.0,3150.0,80,400,1800,4500
+36,11,Panchgani,Maharashtra,Sydney Point,Valley viewpoint,2,2,220.0,1900.0,90,350,1000,2800
+37,11,Panchgani,Maharashtra,Parsi Point,Popular scenic spot,2,2,310.0,2450.0,120,500,1400,3500
+38,12,Igatpuri,Maharashtra,Vipassana Center,Meditation retreat,2,2,275.0,2900.0,200,350,1600,4200
+39,12,Igatpuri,Maharashtra,Ashoka Waterfall,Seasonal waterfall,2,2,300.0,4000.0,150,450,2200,5800
+40,12,Igatpuri,Maharashtra,Tringalwadi Fort,Trekking fort,2,2,275.0,2750.0,200,350,1500,4000
+41,13,Bhandardara,Maharashtra,Arthur Lake,Calm scenic lake,2,2,285.0,2600.0,120,450,1600,3600
+42,13,Bhandardara,Maharashtra,Randha Falls,Large waterfall,2,2,300.0,3750.0,100,500,2000,5500
+43,13,Bhandardara,Maharashtra,Wilson Dam,Historic dam,2,2,215.0,4000.0,80,350,1800,6200
+44,14,Ajanta,Maharashtra,Ajanta Cave 1,Buddhist painting cave,2,2,325.0,2500.0,150,500,1200,3800
+45,14,Ajanta,Maharashtra,Ajanta Cave 2,Ancient sculpture cave,2,2,300.0,2350.0,200,400,1500,3200
+46,14,Ajanta,Maharashtra,Ajanta Viewpoint,Panoramic cave view,2,2,225.0,3500.0,100,350,1800,5200
+47,15,Ellora,Maharashtra,Kailasa Temple,Monolithic rock temple,2,2,400.0,2500.0,200,600,1400,3600
+48,15,Ellora,Maharashtra,Ellora Cave 10,Buddhist cave,2,2,250.0,2300.0,150,350,1200,3400
+49,15,Ellora,Maharashtra,Ellora Cave 16,Hindu cave temple,2,2,400.0,2900.0,250,550,1600,4200
+50,16,Aurangabad,Maharashtra,Bibi Ka Maqbara,Mughal monument,2,2,290.0,2300.0,180,400,1400,3200
+51,16,Aurangabad,Maharashtra,Aurangabad Caves,Rock cut caves,2,2,225.0,2400.0,100,350,1300,3500
+52,16,Aurangabad,Maharashtra,Daulatabad Fort,Historic hill fort,2,2,325.0,3300.0,150,500,1800,4800
+53,17,Nashik,Maharashtra,Trimbakeshwar Temple,Jyotirlinga temple,2,2,220.0,3600.0,90,350,2000,5200
+54,17,Nashik,Maharashtra,Sula Vineyards,Popular winery,2,2,325.0,2400.0,200,450,1200,3600
+55,17,Nashik,Maharashtra,Pandavleni Caves,Ancient caves,2,2,290.0,2700.0,180,400,1500,3900
+56,18,Shirdi,Maharashtra,Sai Baba Temple,Pilgrimage temple,2,2,285.0,3150.0,120,450,1800,4500
+57,18,Shirdi,Maharashtra,Dwarkamai,Historic mosque,2,2,265.0,3750.0,150,380,2000,5500
+58,18,Shirdi,Maharashtra,Chavadi,Religious site,2,2,150.0,2900.0,120,180,1600,4200
+59,19,Kolhapur,Maharashtra,Mahalaxmi Temple,Important religious temple,2,2,300.0,2500.0,200,400,1400,3600
+60,19,Kolhapur,Maharashtra,Rankala Lake,Popular lake,2,2,250.0,4100.0,150,350,2200,6000
+61,19,Kolhapur,Maharashtra,Panhala Fort,Historic fort,2,2,240.0,5250.0,100,380,2500,8000
+62,20,Satara,Maharashtra,Kaas Plateau,Seasonal flower valley,2,2,285.0,3600.0,120,450,2000,5200
+63,20,Satara,Maharashtra,Thoseghar Falls,Waterfall destination,2,2,400.0,2350.0,300,500,1500,3200
+64,20,Satara,Maharashtra,Sajjangad Fort,Historic fort,2,2,265.0,2200.0,180,350,1400,3000
+65,21,Raigad,Maharashtra,Raigad Fort,Capital fort of Shivaji Maharaj,2,2,475.0,2900.0,300,650,1600,4200
+66,21,Raigad,Maharashtra,Hirkani Buruj,Fort structure,2,2,300.0,3300.0,150,450,1800,4800
+67,21,Raigad,Maharashtra,Gangasagar Lake,Historic water reservoir,2,2,260.0,3600.0,120,400,2000,5200
+68,22,Pratapgad,Maharashtra,Pratapgad Fort,Historic battlefield fort,2,2,325.0,2450.0,200,450,1400,3500
+69,22,Pratapgad,Maharashtra,Bhavai Devi Temple,Temple near fort,2,2,325.0,2850.0,250,400,1500,4200
+70,22,Pratapgad,Maharashtra,Sunset Point,Scenic sunset spot,2,2,425.0,3400.0,300,550,1800,5000
+71,23,Chiplun,Maharashtra,Vashishti River,Boating experience,2,2,175.0,2300.0,100,250,1400,3200
+72,23,Chiplun,Maharashtra,Guhagar Beach,Nearby beach,2,2,300.0,3650.0,200,400,1800,5500
+73,23,Chiplun,Maharashtra,Koyna Backwaters,Scenic backwaters,2,2,250.0,3600.0,150,350,2000,5200
+74,24,Dapoli,Maharashtra,Dapoli Beach,Serene beach,2,2,325.0,2850.0,200,450,1500,4200
+75,24,Dapoli,Maharashtra,Ladghar Beach,Red soil beach,2,2,290.0,2600.0,180,400,1600,3600
+76,24,Dapoli,Maharashtra,Suvarnadurg Fort,Sea fort,2,2,425.0,2200.0,300,550,1400,3000
+77,25,Harihareshwar,Maharashtra,Harihareshwar Temple,Shiva temple,2,2,375.0,2650.0,250,500,1500,3800
+78,25,Harihareshwar,Maharashtra,Harihareshwar Beach,Calm beach,4,2,312.5,3150.0,120,600,1800,4500
+79,25,Harihareshwar,Maharashtra,Kalbhairav Temple,Ancient temple,4,2,230.0,2900.0,120,400,1600,4200
+80,26,Guhagar,Maharashtra,Guhagar Beach,Uncrowded beach,4,2,262.5,2650.0,200,350,1500,3800
+81,26,Guhagar,Maharashtra,Velneshwar Temple,Shiva temple,4,2,265.0,2500.0,60,450,1400,3600
+82,26,Guhagar,Maharashtra,Anjarle Beach,Scenic coastline,4,2,375.0,2150.0,200,650,1300,3000
+83,27,Amboli,Maharashtra,Amboli Falls,Seasonal waterfall,4,2,235.0,2900.0,100,400,1600,4200
+84,27,Amboli,Maharashtra,Kawalesaad Point,Valley viewpoint,4,2,292.5,3750.0,180,550,2000,5500
+85,27,Amboli,Maharashtra,Sunset Point,Sunset location,4,2,315.0,3500.0,180,450,1800,5200
+86,28,Lavasa,Maharashtra,Dasve Viewpoint,City viewpoint,4,2,300.0,2500.0,150,400,1400,3600
+87,28,Lavasa,Maharashtra,Temghar Dam,Nearby dam,4,2,272.5,4250.0,120,500,2000,6500
+88,28,Lavasa,Maharashtra,Warasgaon Lake,Scenic lake,4,2,237.5,2350.0,90,500,1500,3200
+89,29,Pune,Maharashtra,Shaniwar Wada,Historic fort,4,2,292.5,3500.0,150,400,1800,5200
+90,29,Pune,Maharashtra,Aga Khan Palace,Freedom movement site,4,2,395.0,2600.0,200,650,1400,3800
+91,29,Pune,Maharashtra,Sinhagad Fort,Trekking fort,4,2,172.5,2100.0,50,300,1200,3000
+92,30,Mumbai,Maharashtra,Gateway of India,Iconic monument,4,2,310.0,2250.0,240,450,1300,3200
+93,30,Mumbai,Maharashtra,Marine Drive,Coastal promenade,4,2,210.0,2500.0,120,380,1400,3600
+94,30,Mumbai,Maharashtra,Elephanta Caves,Ancient cave temples,4,2,242.5,2700.0,120,350,1500,3900
+95,30,Mumbai,Maharashtra,Juhu Beach,Popular city beach,4,2,212.5,2100.0,100,350,1200,3000
+96,31,Nagpur,Maharashtra,Deekshabhoomi,Buddhist monument,4,2,305.0,2450.0,120,420,1500,3400
+97,31,Nagpur,Maharashtra,Ambazari Lake,Recreational lake,4,2,227.5,2900.0,100,350,1600,4200
+98,31,Nagpur,Maharashtra,Sitabuldi Fort,Historic fort,4,2,297.5,3300.0,80,450,1800,4800
+99,32,Amravati,Maharashtra,Chikhaldara Hill View,Scenic viewpoint,4,2,232.5,2200.0,80,350,1400,3000
+100,32,Amravati,Maharashtra,Gavilgad Fort,Historic fort,4,2,282.5,2650.0,60,600,1500,3800
+101,32,Amravati,Maharashtra,Melghat Viewpoint,Scenic forest viewpoint,4,2,242.5,2900.0,90,400,1600,4200
+102,32,Amravati,Maharashtra,Semadoh Lake,Forest lake area,4,2,237.5,2300.0,120,400,1400,3200
+103,33,Chandrapur,Maharashtra,Tadoba Lake,Core zone lake area,4,2,292.5,2650.0,100,550,1500,3800
+104,33,Chandrapur,Maharashtra,Moharli Gate,Main safari entry gate,4,2,322.5,2150.0,120,480,1300,3000
+105,33,Chandrapur,Maharashtra,Kolara Gate,Tiger reserve entry gate,4,2,402.5,3500.0,300,650,1800,5200
+106,34,Tadoba,Maharashtra,Tadoba Core Zone,Wildlife safari area,4,2,317.5,2550.0,190,600,1500,3600
+107,34,Tadoba,Maharashtra,Agarzari Buffer,Buffer safari zone,4,2,250.0,2300.0,90,420,1400,3200
+108,34,Tadoba,Maharashtra,Panchdhara Viewpoint,Forest viewpoint,4,2,255.0,2800.0,150,400,1600,4000
+109,35,Melghat,Maharashtra,Chikhaldara Lake,Recreational lake,4,2,225.0,2350.0,90,350,1300,3400
+110,35,Melghat,Maharashtra,Gawilgarh Fort,Historic hill fort,4,2,242.5,2500.0,80,400,1400,3600
+111,35,Melghat,Maharashtra,Panchbol Point,Five echo point,4,2,270.0,2350.0,120,450,1500,3200
+112,36,Solapur,Maharashtra,Siddheshwar Temple,Ancient temple,4,2,302.5,2800.0,180,360,1800,3800
+113,36,Solapur,Maharashtra,Great Indian Bustard Sanctuary,Bird sanctuary,4,2,267.5,2350.0,70,400,1200,3500
+114,36,Solapur,Maharashtra,Hipparga Lake,Scenic lake,4,2,275.0,2900.0,150,450,1600,4200
+115,37,Akkalkot,Maharashtra,Akkalkot Temple,Pilgrimage temple,4,2,255.0,2600.0,110,430,1400,3800
+116,37,Akkalkot,Maharashtra,Swami Samarth Math,Religious math,4,2,322.5,3150.0,200,480,1800,4500
+117,37,Akkalkot,Maharashtra,Narayanpur Dam,Nearby dam,4,2,320.0,2750.0,100,520,1500,4000
+118,38,Osmanabad,Maharashtra,Tulja Bhavani Temple,Famous Shakti Peeth,4,2,220.0,2150.0,130,350,1300,3000
+119,38,Osmanabad,Maharashtra,Gomukh Tirth,Religious water source,4,2,282.5,2900.0,120,410,1600,4200
+120,38,Osmanabad,Maharashtra,Tuljapur Fort,Historic fort ruins,4,2,220.0,4150.0,90,350,1800,6500
+121,39,Tuljapur,Maharashtra,Tuljapur Ghat,Scenic ghat area,4,2,260.0,2300.0,120,420,1400,3200
+122,39,Tuljapur,Maharashtra,Ramling Temple,Ancient temple,4,2,285.0,4000.0,180,460,2200,5800
+123,39,Tuljapur,Maharashtra,Yedshi Ramling,Temple complex,4,2,300.0,2650.0,150,480,1500,3800
+124,40,Beed,Maharashtra,Beed Fort,Historic fort,4,2,205.0,2600.0,100,400,1600,3600
+125,40,Beed,Maharashtra,Masjid-e-Hamidia,Historic mosque,2,2,345.0,3500.0,260,430,1800,5200
+126,40,Beed,Maharashtra,Kapil Dhara,Waterfall site,2,2,310.0,2300.0,240,380,1400,3200
+127,41,Jalgaon,Maharashtra,Ajanta Viewpoint,Scenic cave viewpoint,2,2,285.0,2650.0,120,450,1500,3800
+128,41,Jalgaon,Maharashtra,Mehrun Lake,Popular lake,2,2,195.0,2500.0,70,320,1400,3600
+129,41,Jalgaon,Maharashtra,Gandhi Research Foundation,Museum and research center,2,2,295.0,4000.0,190,400,1800,6200
+130,42,Dhule,Maharashtra,Laling Fort,Hilltop fort,2,2,310.0,2650.0,140,480,1500,3800
+131,42,Dhule,Maharashtra,Songir Fort,Historic fort,2,2,410.0,3750.0,300,520,2000,5500
+132,42,Dhule,Maharashtra,Bhamer Fort,Ancient fort,2,2,165.0,2300.0,120,210,1400,3200
+133,43,Nanded,Maharashtra,Hazur Sahib,Gurudwara pilgrimage site,2,2,300.0,2800.0,180,420,1600,4000
+134,43,Nanded,Maharashtra,Godavari Ghat,River ghat,2,2,280.0,2650.0,100,460,1500,3800
+135,43,Nanded,Maharashtra,Kaleshwar Temple,Ancient temple,2,2,435.0,3150.0,320,550,1800,4500
+136,44,Parbhani,Maharashtra,Turabul Haq Dargah,Religious dargah,2,2,255.0,3600.0,80,430,2000,5200
+137,44,Parbhani,Maharashtra,Jintur Gate,Historic city gate,2,2,255.0,2350.0,200,310,1200,3500
+138,44,Parbhani,Maharashtra,Pathri Fort,Nearby fort,2,2,315.0,2300.0,150,480,1400,3200
+139,45,Hingoli,Maharashtra,Aundha Nagnath Temple,Jyotirlinga temple,2,2,330.0,2900.0,140,520,1600,4200
+140,45,Hingoli,Maharashtra,Sant Namdev Sansthan,Religious site,2,2,310.0,2650.0,220,400,1500,3800
+141,45,Hingoli,Maharashtra,Kayadhu River,Scenic river,2,2,360.0,3750.0,160,560,2000,5500
+142,46,Washim,Maharashtra,Washim Fort,Historic fort,2,2,150.0,2500.0,90,210,1400,3600
+143,46,Washim,Maharashtra,Balaji Temple,Religious temple,2,2,320.0,2350.0,190,450,1500,3200
+144,46,Washim,Maharashtra,Ansing Fort,Nearby fort,2,2,415.0,2900.0,330,500,1600,4200
+145,47,Wardha,Maharashtra,Sevagram Ashram,Gandhi residence,2,2,295.0,2800.0,170,420,1800,3800
+146,47,Wardha,Maharashtra,Vishwa Shanti Stupa,Peace pagoda,2,2,270.0,3600.0,80,460,2000,5200
+147,47,Wardha,Maharashtra,Bor Dam,Water reservoir,2,2,265.0,2650.0,100,430,1500,3800
+148,48,Yavatmal,Maharashtra,Tipeshwar Sanctuary,Wildlife sanctuary,2,2,425.0,2900.0,310,540,1600,4200
+149,48,Yavatmal,Maharashtra,Painganga River,Forest river,2,2,305.0,2300.0,130,480,1400,3200
+150,48,Yavatmal,Maharashtra,Mahur Temple,Pilgrimage temple,2,2,390.0,2900.0,260,520,1600,4200
+151,49,Karjat,Maharashtra,Karjat Waterfalls,Seasonal waterfalls,2,2,160.0,2350.0,120,200,1500,3200
+152,49,Karjat,Maharashtra,Kondana Caves,Ancient caves,2,2,335.0,2200.0,110,560,1400,3000
+153,49,Karjat,Maharashtra,Peth Fort,Trekking fort,2,2,315.0,4000.0,210,420,2200,5800
+154,50,Bhimashankar,Maharashtra,Bhimashankar Temple,Jyotirlinga temple,2,2,315.0,2300.0,150,480,1400,3200
+155,50,Bhimashankar,Maharashtra,Hanuman Lake,Forest lake,2,2,205.0,2350.0,190,220,1200,3500
+156,50,Bhimashankar,Maharashtra,Bhimashankar Sanctuary,Wildlife sanctuary,2,2,265.0,2650.0,80,450,1500,3800
+157,51,Kaas Plateau,Maharashtra,Kaas Plateau Trail,Flower viewing trail,2,2,290.0,3000.0,200,380,1800,4200
+158,51,Kaas Plateau,Maharashtra,Kaas Lake,Scenic lake,2,2,340.0,4250.0,260,420,2000,6500
+159,51,Kaas Plateau,Maharashtra,Plateau Viewpoint,Valley viewpoint,2,2,305.0,2400.0,140,470,1600,3200
+160,52,Jawhar,Maharashtra,Dabhosa Falls,High waterfall,2,2,380.0,3500.0,260,500,1800,5200
+161,52,Jawhar,Maharashtra,Shirpamal,Historic memorial,2,2,425.0,2650.0,310,540,1500,3800
+162,52,Jawhar,Maharashtra,Hanuman Point,Valley viewpoint,2,2,160.0,2350.0,120,200,1200,3500
+163,53,Wilson Hills,Maharashtra,Sunset Point Wilson,Hilltop sunset view,2,2,335.0,2300.0,190,480,1400,3200
+164,53,Wilson Hills,Maharashtra,Barumal Point,Valley viewpoint,2,2,315.0,2250.0,110,520,1500,3000
+165,53,Wilson Hills,Maharashtra,Ozar Falls,Seasonal waterfall,2,2,345.0,2900.0,230,460,1600,4200
+166,54,Toranmal,Maharashtra,Toranmal Lake,Scenic hill lake,2,2,260.0,2650.0,90,430,1500,3800
+167,54,Toranmal,Maharashtra,Yashwant Lake,Calm water body,2,2,440.0,3650.0,320,560,1800,5500
+168,54,Toranmal,Maharashtra,Gorakhnath Temple,Hilltop temple,2,2,170.0,2400.0,130,210,1600,3200
+169,55,Harishchandragad,Maharashtra,Konkan Kada,Cliff viewpoint,2,2,315.0,3600.0,180,450,2000,5200
+170,55,Harishchandragad,Maharashtra,Kedareshwar Cave,Ancient cave temple,2,2,275.0,3150.0,160,390,1800,4500
+171,55,Harishchandragad,Maharashtra,Taramati Peak,Highest peak,2,2,315.0,2300.0,150,480,1400,3200
+172,56,Lohagad,Maharashtra,Lohagad Fort,Popular trekking fort,2,2,335.0,2550.0,140,530,1500,3600
+173,56,Lohagad,Maharashtra,Bhaja Caves,Rock cut caves,2,2,310.0,2600.0,200,420,1400,3800
+174,56,Lohagad,Maharashtra,Vinchukata,Scorpion tail ridge,2,2,375.0,2900.0,180,570,1600,4200
+175,57,Visapur Fort,Maharashtra,Visapur Fort,Large plateau fort,2,2,155.0,2650.0,100,210,1500,3800
+176,57,Visapur Fort,Maharashtra,Visapur Village,Base village,2,2,270.0,3000.0,80,460,1800,4200
+177,57,Visapur Fort,Maharashtra,Visapur Waterfalls,Monsoon waterfalls,2,2,305.0,2400.0,110,500,1600,3200
+178,58,Sinhagad,Maharashtra,Sinhagad Fort Top,Fort summit,2,2,435.0,4000.0,330,540,2200,5800
+179,58,Sinhagad,Maharashtra,Kalyan Darwaja,Fort entrance,2,2,295.0,2200.0,170,420,1400,3000
+180,58,Sinhagad,Maharashtra,Pune Darwaja,Historic gate,2,2,305.0,2350.0,140,470,1300,3400
+311,58,Sinhagad,Maharashtra,Fort Museum,Sinhagad museum,0,1,0,5900.0,0,0,5900,5900
+181,59,Rajmachi,Maharashtra,Rajmachi Fort,Historic twin fort,2,2,450.0,2650.0,340,560,1500,3800
+182,59,Rajmachi,Maharashtra,Shrivardhan Fort,Upper fort,2,2,175.0,2600.0,120,230,1600,3600
+183,59,Rajmachi,Maharashtra,Manaranjan Fort,Lower fort,2,2,335.0,2500.0,190,480,1800,3200
+312,59,Rajmachi,Maharashtra,Trekking Base Camp,Trek start point,0,1,0,700.0,0,0,700,700
+184,60,Devkund,Maharashtra,Devkund Waterfall,Hidden waterfall,2,2,340.0,2900.0,160,520,1600,4200
+185,60,Devkund,Maharashtra,Bhira Dam,Hydroelectric dam,2,2,340.0,2350.0,130,550,1500,3200
+186,60,Devkund,Maharashtra,Forest Trail,Trekking trail,2,2,215.0,2200.0,90,340,1400,3000
+278,60,Devkund,Maharashtra,Bhira Forest,Forest area,0,1,0,1600.0,0,0,1600,1600
+313,60,Devkund,Maharashtra,River Crossing Point,Trail crossing,0,1,0,1800.0,0,0,1800,1800
+187,61,Tamhini Ghat,Maharashtra,Tamhini Viewpoint,Mountain viewpoint,2,2,450.0,2900.0,320,580,1600,4200
+188,61,Tamhini Ghat,Maharashtra,Plus Valley,Deep valley view,2,2,165.0,2350.0,120,210,1200,3500
+189,61,Tamhini Ghat,Maharashtra,Waterfall Point,Monsoon waterfall,2,2,350.0,2300.0,180,520,1400,3200
+279,61,Tamhini Ghat,Maharashtra,Mulshi Viewpoint,Valley viewpoint,0,1,0,4800.0,0,0,4800,4800
+314,61,Tamhini Ghat,Maharashtra,Misty Hill Curve,Scenic road curve,0,1,0,4700.0,0,0,4700,4700
+190,62,Malshej Ghat,Maharashtra,Malshej Falls,Seasonal waterfalls,2,2,280.0,2250.0,100,460,1500,3000
+191,62,Malshej Ghat,Maharashtra,Flamingo Hill,Bird watching point,2,2,455.0,2500.0,340,570,1400,3600
+192,62,Malshej Ghat,Maharashtra,Shivneri View,Fort view point,2,2,260.0,2450.0,80,440,1500,3400
+280,62,Malshej Ghat,Maharashtra,Pimpalgaon Joga Dam,Large dam,0,1,0,1800.0,0,0,1800,1800
+315,62,Malshej Ghat,Maharashtra,Seasonal Lake,Monsoon lake,0,1,0,900.0,0,0,900,900
+193,63,Rajapur,Maharashtra,Rajapur Ghat,Scenic ghat,2,2,255.0,2350.0,200,310,1200,3500
+194,63,Rajapur,Maharashtra,Mango Orchards,Alphonso farms,2,2,320.0,2400.0,150,490,1600,3200
+195,63,Rajapur,Maharashtra,Temple Complex,Local temples,2,2,350.0,3000.0,140,560,1800,4200
+281,63,Rajapur,Maharashtra,Scenic Ghat Road,Mountain road,0,1,0,3500.0,0,0,3500,3500
+316,63,Rajapur,Maharashtra,Heritage Temple,Old temple,0,1,0,3300.0,0,0,3300,3300
+196,64,Velas,Maharashtra,Velas Beach,Turtle nesting beach,2,2,325.0,2650.0,220,430,1500,3800
+197,64,Velas,Maharashtra,Velas Turtle Festival,Seasonal event spot,2,2,380.0,2200.0,170,590,1400,3000
+198,64,Velas,Maharashtra,Anjarle Lighthouse,Coastal lighthouse,2,2,150.0,2600.0,90,210,1600,3600
+282,64,Velas,Maharashtra,Coastal Trail,Nature walk,0,1,0,1000.0,0,0,1000,1000
+317,64,Velas,Maharashtra,Observation Deck,Viewing deck,0,1,0,1500.0,0,0,1500,1500
+199,65,Kashid,Maharashtra,Kashid Beach,White sand beach,2,2,325.0,3500.0,190,460,1800,5200
+200,65,Kashid,Maharashtra,Korlai Fort,Sea fort,2,2,440.0,2650.0,330,550,1500,3800
+201,65,Kashid,Maharashtra,Revdanda Beach,Calm beach,2,1,300.0,1200.0,170,430,1200,1200
+283,65,Kashid,Maharashtra,Revdanda Fort,Historic fort,0,1,0,7000.0,0,0,7000,7000
+318,65,Kashid,Maharashtra,Beach Camping Zone,Campsite area,0,1,0,5200.0,0,0,5200,5200
+202,66,Nagaon,Maharashtra,Nagaon Beach Main,Popular beach,2,1,290.0,1800.0,80,500,1800,1800
+203,66,Nagaon,Maharashtra,Nagaon Jet Ski,Water sports zone,2,1,275.0,3200.0,100,450,3200,3200
+204,66,Nagaon,Maharashtra,Nagaon Market,Local market,2,1,450.0,1400.0,320,580,1400,1400
+284,66,Nagaon,Maharashtra,Nagaon Sunset Point,Sunset beach,0,1,0,1300.0,0,0,1300,1300
+319,66,Nagaon,Maharashtra,Coastal Food Street,Local food area,0,1,0,3900.0,0,0,3900,3900
+205,67,Aarey Colony,Maharashtra,Aarey Forest,Urban forest,2,1,325.0,2500.0,130,520,2500,2500
+206,67,Aarey Colony,Maharashtra,Aarey Lake,Forest lake,2,1,410.0,4200.0,260,560,4200,4200
+207,67,Aarey Colony,Maharashtra,Chota Kashmir,Picnic garden,2,1,160.0,900.0,120,200,900,900
+285,67,Aarey Colony,Maharashtra,Film City Viewpoint,City view,0,1,0,2400.0,0,0,2400,2400
+320,67,Aarey Colony,Maharashtra,Greenway Trail,Urban nature trail,0,1,0,1100.0,0,0,1100,1100
+208,68,Elephanta Island,Maharashtra,Elephanta Cave 1,Main cave,2,1,345.0,2200.0,110,580,2200,2200
+209,68,Elephanta Island,Maharashtra,Elephanta Cave 2,Secondary cave,2,1,365.0,4800.0,190,540,4800,4800
+210,68,Elephanta Island,Maharashtra,Canon Hill,Island viewpoint,2,1,315.0,1600.0,140,490,1600,1600
+286,68,Elephanta Island,Maharashtra,Elephanta Jetty,Boat arrival point,0,1,0,3800.0,0,0,3800,3800
+211,69,Kanheri Caves,Maharashtra,Kanheri Cave 1,Buddhist cave,2,1,465.0,3600.0,330,600,3600,3600
+212,69,Kanheri Caves,Maharashtra,Kanheri Cave 3,Meditation cave,2,1,165.0,1100.0,120,210,1100,1100
+213,69,Kanheri Caves,Maharashtra,Kanheri Plateau,Viewpoint area,2,1,355.0,2700.0,190,520,2700,2700
+287,69,Kanheri Caves,Maharashtra,Kanheri Museum,Exhibition hall,0,1,0,950.0,0,0,950,950
+214,70,Sanjay Gandhi National Park,Maharashtra,SGNP Safari,Forest safari,2,1,360.0,5200.0,160,560,5200,5200
+215,70,Sanjay Gandhi National Park,Maharashtra,Yeoor Hills,Green hill area,2,1,360.0,1300.0,130,590,1300,1300
+216,70,Sanjay Gandhi National Park,Maharashtra,Tulsi Lake,Freshwater lake,2,1,215.0,3000.0,80,350,3000,3000
+288,70,Sanjay Gandhi National Park,Maharashtra,Forest Interpretation Center,Education center,0,1,0,4200.0,0,0,4200,4200
+217,71,Girgaon Chowpatty,Maharashtra,Girgaon Chowpatty Beach,City beach,2,1,480.0,1000.0,340,620,1000,1000
+218,71,Girgaon Chowpatty,Maharashtra,Immersion Ghat,Festival immersion spot,2,1,165.0,3400.0,120,210,3400,3400
+219,71,Girgaon Chowpatty,Maharashtra,Marine Aquarium,Public aquarium,2,1,370.0,4500.0,180,560,4500,4500
+289,71,Girgaon Chowpatty,Maharashtra,Beach Promenade,Walking stretch,0,1,0,3100.0,0,0,3100,3100
+220,72,Junnar,Maharashtra,Junnar Caves,Ancient caves,2,1,290.0,2000.0,100,480,2000,2000
+221,72,Junnar,Maharashtra,Shivneri Fort,Birthplace fort,2,1,475.0,3800.0,350,600,3800,3800
+222,72,Junnar,Maharashtra,Lenyadri Caves,Ganesh temple caves,2,1,265.0,1200.0,80,450,1200,1200
+290,72,Junnar,Maharashtra,Ancient Market Street,Old town area,0,1,0,5600.0,0,0,5600,5600
+223,73,Bhimashankar Wildlife Sanctuary,Maharashtra,Bhimashankar Forest Trail,Forest walk,2,1,260.0,1800.0,200,320,1800,1800
+224,73,Bhimashankar Wildlife Sanctuary,Maharashtra,Gupt Bhimashankar,Hidden temple,2,1,330.0,4100.0,150,510,4100,4100
+225,73,Bhimashankar Wildlife Sanctuary,Maharashtra,Nagphani Point,Scenic viewpoint,2,1,370.0,1500.0,150,590,1500,1500
+291,73,Bhimashankar Wildlife Sanctuary,Maharashtra,Temple Approach Path,Forest path,0,1,0,850.0,0,0,850,850
+226,74,Rajgad,Maharashtra,Rajgad Fort Top,Capital fort summit,2,1,335.0,900.0,230,440,900,900
+227,74,Rajgad,Maharashtra,Bale Killa,Upper citadel,2,1,400.0,6000.0,180,620,6000,6000
+228,74,Rajgad,Maharashtra,Sanjeevani Machi,Fort plateau,2,1,150.0,2300.0,90,210,2300,2300
+292,74,Rajgad,Maharashtra,Fort Base Village,Base village,0,1,0,1700.0,0,0,1700,1700
+229,75,Panhala,Maharashtra,Panhala Fort Top,Historic fort,2,1,335.0,3400.0,190,480,3400,3400
+230,75,Panhala,Maharashtra,Teen Darwaja,Fort gate,2,1,460.0,800.0,340,580,800,800
+231,75,Panhala,Maharashtra,Tabak Udyan,Garden area,2,1,310.0,2600.0,170,450,2600,2600
+293,75,Panhala,Maharashtra,Historical Pathway,Fort path,0,1,0,4600.0,0,0,4600,4600
+232,76,Vengurla,Maharashtra,Vengurla Beach,Peaceful beach,2,1,300.0,2900.0,80,520,2900,2900
+233,76,Vengurla,Maharashtra,Redi Ganpati Temple,Coastal temple,2,1,285.0,3700.0,100,470,3700,3700
+234,76,Vengurla,Maharashtra,Kalavi Beach,Secluded beach,2,1,465.0,1000.0,330,600,1000,1000
+294,76,Vengurla,Maharashtra,Coastal Watchtower,Sea view tower,0,1,0,2800.0,0,0,2800,2800
+235,77,Malvan,Maharashtra,Malvan Beach,Konkan beach,2,1,345.0,4200.0,130,560,4200,4200
+236,77,Malvan,Maharashtra,Rock Garden,Coastal rocks,2,1,420.0,1100.0,260,580,1100,1100
+237,77,Malvan,Maharashtra,Tarkarli Jetty,Boat ride point,2,1,160.0,3100.0,120,200,3100,3100
+295,77,Malvan,Maharashtra,Sea Cliff Viewpoint,Cliffside view,0,1,0,6200.0,0,0,6200,6200
+238,78,Sawantwadi,Maharashtra,Sawantwadi Palace,Royal palace,2,1,355.0,1700.0,110,600,1700,1700
+239,78,Sawantwadi,Maharashtra,Moti Talao,Lake area,2,1,370.0,2800.0,190,550,2800,2800
+240,78,Sawantwadi,Maharashtra,Narayan Rane Park,City park,2,1,320.0,5500.0,140,500,5500,5500
+296,78,Sawantwadi,Maharashtra,Local Handicraft Market,Artisan market,0,1,0,1100.0,0,0,1100,1100
+241,79,Chikhaldara,Maharashtra,Chikhaldara Wildlife View,Forest viewpoint,2,1,485.0,700.0,340,630,700,700
+242,79,Chikhaldara,Maharashtra,Bhima Kund,Mythological site,2,1,165.0,3900.0,120,210,3900,3900
+243,79,Chikhaldara,Maharashtra,Kalapani Lake,Scenic lake,2,1,365.0,1400.0,190,540,1400,1400
+297,79,Chikhaldara,Maharashtra,Valley Fog Point,Misty viewpoint,0,1,0,2600.0,0,0,2600,2600
+244,80,Paithan,Maharashtra,Paithani Weaving Center,Saree weaving hub,2,1,370.0,3600.0,160,580,3600,3600
+245,80,Paithan,Maharashtra,Jayakwadi Dam,Large dam,2,1,370.0,4800.0,130,610,4800,4800
+246,80,Paithan,Maharashtra,Sant Eknath Garden,Public garden,2,1,220.0,900.0,80,360,900,900
+298,80,Paithan,Maharashtra,Godavari River Ghat,River ghat,0,1,0,3400.0,0,0,3400,3400
+247,81,Aurangabad Caves,Maharashtra,Aurangabad Cave 6,Buddhist cave,2,1,500.0,3200.0,350,650,3200,3200
+248,81,Aurangabad Caves,Maharashtra,Aurangabad Cave 7,Rock cut cave,2,1,165.0,1200.0,120,210,1200,1200
+249,81,Aurangabad Caves,Maharashtra,Cave Viewpoint,Hill viewpoint,2,1,390.0,4500.0,180,600,4500,4500
+299,81,Aurangabad Caves,Maharashtra,Sunset Hill,Evening viewpoint,0,1,0,5200.0,0,0,5200,5200
+250,82,Pench National Park,Maharashtra,Pench Safari Zone,Wildlife safari,2,1,295.0,2600.0,100,490,2600,2600
+251,82,Pench National Park,Maharashtra,Turai Gate,Entry gate,2,1,485.0,4100.0,350,620,4100,4100
+252,82,Pench National Park,Maharashtra,Totladoh Dam,Large dam,2,1,270.0,850.0,80,460,850,850
+300,82,Pench National Park,Maharashtra,Forest Watchtower,Animal sighting point,0,1,0,1900.0,0,0,1900,1900
+253,83,Umred Karhandla,Maharashtra,Umred Safari Zone,Wildlife safari,0,1,0,1900.0,0,0,1900,1900
+254,83,Umred Karhandla,Maharashtra,Karhandla Lake,Scenic lake,0,1,0,6200.0,0,0,6200,6200
+255,83,Umred Karhandla,Maharashtra,Forest Trail,Jeep trail,0,1,0,1300.0,0,0,1300,1300
+301,83,Umred Karhandla,Maharashtra,Bird Watching Zone,Avian habitat,0,1,0,1200.0,0,0,1200,1200
+256,84,Devgad,Maharashtra,Devgad Fort,Coastal fort,0,1,0,2800.0,0,0,2800,2800
+257,84,Devgad,Maharashtra,Devgad Beach,Serene beach,0,1,0,3400.0,0,0,3400,3400
+258,84,Devgad,Maharashtra,Windmill Viewpoint,Coastal viewpoint,0,1,0,1600.0,0,0,1600,1600
+302,84,Devgad,Maharashtra,Coastal Fishing Jetty,Fishing boats area,0,1,0,7500.0,0,0,7500,7500
+259,85,Shivneri Fort,Maharashtra,Shivneri Fort Top,Fort summit,0,1,0,5300.0,0,0,5300,5300
+260,85,Shivneri Fort,Maharashtra,Shiv Janmasthan,Birthplace site,0,1,0,1000.0,0,0,1000,1000
+261,85,Shivneri Fort,Maharashtra,Badami Talav,Water reservoir,0,1,0,3100.0,0,0,3100,3100
+303,85,Shivneri Fort,Maharashtra,Fort Museum,History museum,0,1,0,2300.0,0,0,2300,2300
+262,86,Bhandara,Maharashtra,Bhandara Lake,City lake,0,1,0,1100.0,0,0,1100,1100
+263,86,Bhandara,Maharashtra,Ambagad Fort,Historic fort,0,1,0,4200.0,0,0,4200,4200
+264,86,Bhandara,Maharashtra,Forest Park,Nature park,0,1,0,1500.0,0,0,1500,1500
+304,86,Bhandara,Maharashtra,Sunrise Hill,Early morning view,0,1,0,1500.0,0,0,1500,1500
+265,87,Gondia,Maharashtra,Gondia Lake,Urban lake,0,1,0,5700.0,0,0,5700,5700
+266,87,Gondia,Maharashtra,Itiadoh Dam,Scenic dam,0,1,0,750.0,0,0,750,750
+267,87,Gondia,Maharashtra,Navegaon Bandh,Wildlife reserve,0,1,0,2900.0,0,0,2900,2900
+305,87,Gondia,Maharashtra,Forest Picnic Area,Picnic zone,0,1,0,6800.0,0,0,6800,6800
+268,88,Chandoli National Park,Maharashtra,Chandoli Dam,Scenic dam,0,1,0,3600.0,0,0,3600,3600
+269,88,Chandoli National Park,Maharashtra,Forest Safari,Wildlife safari,0,1,0,1200.0,0,0,1200,1200
+270,88,Chandoli National Park,Maharashtra,Heritage Village,Tribal village,0,1,0,6500.0,0,0,6500,6500
+306,88,Chandoli National Park,Maharashtra,Scenic Valley Trail,Nature trail,0,1,0,1000.0,0,0,1000,1000
+271,89,Koyna Wildlife Sanctuary,Maharashtra,Koyna Dam,Major dam,0,1,0,1400.0,0,0,1400,1400
+272,89,Koyna Wildlife Sanctuary,Maharashtra,Shivsagar Lake,Reservoir lake,0,1,0,2700.0,0,0,2700,2700
+273,89,Koyna Wildlife Sanctuary,Maharashtra,Forest Trail,Wildlife trail,0,1,0,3300.0,0,0,3300,3300
+307,89,Koyna Wildlife Sanctuary,Maharashtra,Dam Viewpoint,Reservoir view,0,1,0,4200.0,0,0,4200,4200
+274,90,Kolad,Maharashtra,Kolad Rafting Point,River rafting spot,0,1,0,900.0,0,0,900,900
+275,90,Kolad,Maharashtra,Kundalika River,River stretch,0,1,0,5200.0,0,0,5200,5200
+276,90,Kolad,Maharashtra,Kolad Waterfall,Seasonal waterfall,0,1,0,800.0,0,0,800,800
+277,90,Kolad,Maharashtra,Forest Campsite,Nature campsite,0,1,0,3900.0,0,0,3900,3900
+308,90,Kolad,Maharashtra,Riverside Walk,Walking trail,0,1,0,2100.0,0,0,2100,2100
+309,90,Kolad,Maharashtra,Nature Photography Point,Photo spot,0,1,0,3600.0,0,0,3600,3600
+310,90,Kolad,Maharashtra,Local Village Tour,Community visit,0,1,0,1400.0,0,0,1400,1400
+321,91,Goa,Unknown,Braganza House West Wing,"SH8, Chandor - 403714, Goa, India",0,0,0,0,0,0,0,0
+322,91,Goa,Unknown,Braganza House,"SH8, Chandor - 403714, Goa, India",0,0,0,0,0,0,0,0
+323,91,Goa,Unknown,Braganza House East Wing,"SH8, Chandor - 403714, Goa, India",0,0,0,0,0,0,0,0
+324,91,Goa,Unknown,Kuskem Waterfall,"Hathkhamba-Goa Road, Codli - 403706, Goa, India",0,0,0,0,0,0,0,0
+325,91,Goa,Unknown,Dr. B. R. Ambedkar,"Curchorem - 403706, Goa, India",0,0,0,0,0,0,0,0
+326,91,Goa,Unknown,Shivaji,"SH6, Pontemol, Curchorem - 403706, Goa, India",0,0,0,0,0,0,0,0
+327,92,Manali,Unknown,Wayland viewpoint,"Uppar Ruar, Old Manali - 175131, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+328,92,Manali,Unknown,Lamadugh,"Manali - 175131, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+329,92,Manali,Unknown,Valley viewpoint,"Path to Upper Goshal Village, Old Manali - 175103, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+330,92,Manali,Unknown,Meadow viewpoint,"Lamadugh, Manali - 175131, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+331,92,Manali,Unknown,View to waterfall,"Path to Upper Goshal Village, Goshal - 175103, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+332,92,Manali,Unknown,Great Hadimba,"Manu Mandir Street, Old Manali - 175131, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+333,92,Manali,Unknown,Kanyal top boulder,"Chhyal - Lamadug, Chhyal - 175131, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+334,92,Manali,Unknown,Vashisht View,"Old Manali to Goshal, Old Manali - 175103, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+335,92,Manali,Unknown,Simsa viewpoint,"Mathiana to Chichoga Upper trail, Chijoga - 175131, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+336,92,Manali,Unknown,Friendship peak Viewpoint,"Shuru traverse, Jagatsukh - 175143, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+337,92,Manali,Unknown,Aleo Viewpoint,"Chichoga to Prini, Aleo - 175131, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+338,92,Manali,Unknown,Manalsu valley viewpoint,"Mathiana to Chadhian, Manali - 175131, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+339,92,Manali,Unknown,Deo Tibba Viewpoint,"Khumsu Thatch to Mangankot peak, Manali - 175131, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+340,92,Manali,Unknown,Kullu valley viewpoint,"Mathiana to Sethan, Manali - 175131, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+341,92,Manali,Unknown,Dhauladhar Viewpoint,"Jagatsukh to Sethan, Arjun Gupha -, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+342,92,Manali,Unknown,Manali viewpoint,"Mathiana to Chichoga Upper trail, Chijoga - 175131, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+343,92,Manali,Unknown,Manali viewpoint,"Forest Trail, Model Town, Manali - 175131, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+344,92,Manali,Unknown,Manali viewpoint,"Trail section 1, Bhajogi, Manali - 175131, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+345,92,Manali,Unknown,Old Manali View,"Manu temple to Khumsu Thatch, Old Manali - 175103, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+346,92,Manali,Unknown,Jogini Viewpoint,"Old Manali to Goshal, Old Manali - 175103, Himachal Pradesh, India",0,0,0,0,0,0,0,0
+347,93,Chorla Ghat,Unknown,Surla Waterfalls Viewpoint,"NH748AA, Chowki - 591345, Goa, India",0,0,0,0,0,0,0,0
+348,93,Chorla Ghat,Unknown,Chorla Ghat,"NH748AA, -, Goa, India",0,0,0,0,0,0,0,0
+349,94,jaipur,Unknown,Jal Mahal,"Amer Road, Brahmapuri, Jaipur, Jaipur - 302001, Rajasthan, India",0,0,0,0,0,0,0,0
+350,94,jaipur,Unknown,City Palace,"Tripolia Bazaar, Ramganj, Jaipur - 302001, Rajasthan, India",0,0,0,0,0,0,0,0
+351,94,jaipur,Unknown,Hawa Mahal,"Amer Road, Ramganj, Jaipur - 302001, Rajasthan, India",0,0,0,0,0,0,0,0
+352,94,jaipur,Unknown,Royal Gaitor,"New Rambah Road, Jaipur - 302001, Rajasthan, India",0,0,0,0,0,0,0,0
+353,94,jaipur,Unknown,"जंतर मंतर, जयपुर","Tripolia Bazaar, Ramganj, Jaipur - 302001, Rajasthan, India",0,0,0,0,0,0,0,0
+354,94,jaipur,Unknown,Sisodiya Rani Bagh,"Old Agra Jaipur Bikaner Road, Jaipur - 302001, Rajasthan, India",0,0,0,0,0,0,0,0
+355,94,jaipur,Unknown,Suraj Pol Gate,"Galta Road, Ramganj, Jaipur - 302001, Rajasthan, India",0,0,0,0,0,0,0,0
+356,94,jaipur,Unknown,Paanch Batti,"Mirza Ismail Road, Jaipur - 302001, Rajasthan, India",0,0,0,0,0,0,0,0
+357,94,jaipur,Unknown,Nahargah Fort,"New Rambah Road, Jaipur - 302001, Rajasthan, India",0,0,0,0,0,0,0,0
+358,94,jaipur,Unknown,Sanganeri Gate,"Johari Bazar, Ramganj, Jaipur - 302003, Rajasthan, India",0,0,0,0,0,0,0,0
+359,94,jaipur,Unknown,Moti Doongri Fort,"Moti Doongri Road, Adarsh Nagar, Jaipur - 302004, Rajasthan, India",0,0,0,0,0,0,0,0
+360,94,jaipur,Unknown,Haveli,Attraction,0,0,0,0,0,0,0,0
+361,94,jaipur,Unknown,Man Gate,"Chaura Rasta, Ramganj, Jaipur - 302001, Rajasthan, India",0,0,0,0,0,0,0,0
+362,94,jaipur,Unknown,Diwan-i-Khas,"Tripolia Bazaar, Ramganj, Jaipur - 302001, Rajasthan, India",0,0,0,0,0,0,0,0
+363,94,jaipur,Unknown,Ajmeri Gate,"Kishanpole Bazar Road, Jaipur - 302001, Rajasthan, India",0,0,0,0,0,0,0,0
+364,94,jaipur,Unknown,Chulgiri Digamber Jain Temple,"Jaipur - 302001, Rajasthan, India",0,0,0,0,0,0,0,0
+365,94,jaipur,Unknown,Ajmeri Gate,"Kishanpole Bazar Road, Jaipur - 302001, Rajasthan, India",0,0,0,0,0,0,0,0
+366,94,jaipur,Unknown,Ajmeri Gate,"Kishanpole Bazar Road, Jaipur - 302001, Rajasthan, India",0,0,0,0,0,0,0,0
+367,94,jaipur,Unknown,Sawai Bhawani Singh Tomb,"New Rambah Road, Jaipur - 302001, Rajasthan, India",0,0,0,0,0,0,0,0
+368,94,jaipur,Unknown,Sawai Man Singh II Tomb,"New Rambah Road, Jaipur - 302001, Rajasthan, India",0,0,0,0,0,0,0,0
+369,95,Varanasi,Unknown,Bodhi Tree,"Dharmapala Road, Sarnath - 221007, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+370,95,Varanasi,Unknown,Hanuman Ghat,"Harish Chandra Ghat Road, Varanasi - 222005, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+371,95,Varanasi,Unknown,Ahilyabai Ghat,"Dashashwamedh Road, Varanasi - 221001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+372,95,Varanasi,Unknown,Raja Ghat,"Godowalia Lanka Road, Varanasi - 222005, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+373,95,Varanasi,Unknown,Ranamahal Ghat,"Dashashwamedh Road, Varanasi - 221001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+374,95,Varanasi,Unknown,Manasarowa Ghat,"Godowalia Lanka Road, Varanasi - 222005, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+375,95,Varanasi,Unknown,Manmandir Ghat,"Tripura Bhairwi, Varanasi - 221001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+376,95,Varanasi,Unknown,Kedar Ghat,"Harish Chandra Ghat Road, Varanasi - 222005, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+377,95,Varanasi,Unknown,Badhaini Ghat,"Pandit Manmohan Malviya Road, Varanasi - 222005, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+378,95,Varanasi,Unknown,Ganga Mahal Ghat,"exit(kashi temple), Varanasi - 221001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+379,95,Varanasi,Unknown,Lali Ghat,"Harish Chandra Ghat Road, Varanasi - 222005, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+380,95,Varanasi,Unknown,Babua Pandey Ghat,"Godowalia Lanka Road, Varanasi - 221001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+381,95,Varanasi,Unknown,Munshi Ghat,"Dashashwamedh Road, Varanasi - 221001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+382,95,Varanasi,Unknown,Karnataka Ghat,"Harish Chandra Ghat Road, Varanasi - 222005, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+383,95,Varanasi,Unknown,Narad Ghat,"Godowalia Lanka Road, Varanasi - 222005, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+384,95,Varanasi,Unknown,Chousatti Ghat,"Dashashwamedh Road, Varanasi - 221001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+385,95,Varanasi,Unknown,Ganesh Ghat,"exit(kashi temple), Varanasi - 221001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+386,95,Varanasi,Unknown,Dr. Rajendra Prasad Ghat,"Dashashwamedh Road, Varanasi - 221001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+387,95,Varanasi,Unknown,Sankatha Ghat,"exit(kashi temple), Varanasi - 221001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+388,95,Varanasi,Unknown,Giant Buddha Statue,"Dharmapala Road, Sarnath - 221007, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+389,96,Mathura,Unknown,Vishram Ghat,"Ghats, Mathura - 281001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+390,96,Mathura,Unknown,Potrakund 1,"A way to Galteshar Mahadev Mandir, Mathura - 281001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+391,96,Mathura,Unknown,Kans Qila,"Ghats, Mathura - 281001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+392,97,prayagraj,Unknown,Khusrau Bagh,"Leader Road, Roshan Bagh, Prayagraj - 211001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+393,97,prayagraj,Unknown,Victoria Memorial,"Pannalal Road, George Town, Prayagraj - 211001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+394,97,prayagraj,Unknown,Allahabad Fort,"Parade Ground Road, New Bairahana, Prayagraj - 211001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+395,97,prayagraj,Unknown,Allahabad Pillar,"Yamuna Patti Road, Prayagraj - 211001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+396,97,prayagraj,Unknown,Statue of St. Francis of Assisi,"Thornhill Road, Katra, Prayagraj - 211001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+397,97,prayagraj,Unknown,Anand Bhavan,"Hashimpur Road, George Town, Prayagraj - 211001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+398,97,prayagraj,Unknown,Anand Bhavan,"NH30, George Town, Prayagraj - 211001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+399,97,prayagraj,Unknown,Barghad Ghat,"60 feet road, Kareli, Prayagraj - 211001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+400,97,prayagraj,Unknown,Swaraj Bhavan,"NH30, George Town, Prayagraj - 211001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+401,97,prayagraj,Unknown,Flag Post,"Paade Ground Road, New Bairahana, Prayagraj - 211001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+402,97,prayagraj,Unknown,Shaheed Chandrashekhar Azad Smarak,"Pannalal Road, George Town, Prayagraj - 211001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+403,97,prayagraj,Unknown,Ghanta Ghar,"Kamla Nehru Road, Chowk, Prayagraj - 211001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+404,97,prayagraj,Unknown,Pundit Nehru Statue,"Jawaharlal Nehru Road, George Town, Prayagraj - 211001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+405,97,prayagraj,Unknown,anand bhavan,"NH30, George Town, Prayagraj - 211001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+406,97,prayagraj,Unknown,yamuna palce,"Hashimpur Road, George Town, Prayagraj - 211001, Uttar Pradesh, India",0,0,0,0,0,0,0,0
+407,98,Rameshwaram,Unknown,Dr. A.P.J. Abdul Kalam Memorial,"Madurai-Rameshwaram Road, Rameswaram - 623526, Tamil Nadu, India",0,0,0,0,0,0,0,0
+408,98,Rameshwaram,Unknown,Gandhamadhana Parvatham,"Madurai-Rameshwaram Road, Meiyampuli - 623529, Tamil Nadu, India",0,0,0,0,0,0,0,0
+409,98,Rameshwaram,Unknown,Pretty Old House Nice Woodwork,"21/28, East Car Street, Rameswaram - 623526, Tamil Nadu, India",0,0,0,0,0,0,0,0
+410,98,Rameshwaram,Unknown,Olakudda Beach,"way to anthoniar kebi, Rameswaram - 623526, Tamil Nadu, India",0,0,0,0,0,0,0,0
+411,99,Udaipur,Unknown,Saheliyon-Ki-Bari,"Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+412,99,Udaipur,Unknown,Sajjan Garh - Monsoon Palace,"Hiking Trail, Galera -, Rajasthan, India",0,0,0,0,0,0,0,0
+413,99,Udaipur,Unknown,Rajiv Gandhi Garden,"Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+414,99,Udaipur,Unknown,Gangaur Ghat,"Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+415,99,Udaipur,Unknown,Ambrai Ghat,"Lake Pichola Road, Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+416,99,Udaipur,Unknown,City Palace,"Jagdish Temple Road, Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+417,99,Udaipur,Unknown,Nerhu Island Park,"Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+418,99,Udaipur,Unknown,Sunset Point,"Shitla Marg, Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+419,99,Udaipur,Unknown,Sunset Point,"City Station Road, Udaipur Police Lines, Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+420,99,Udaipur,Unknown,Kishan Pol,"City Station Road, Udaipur Police Lines, Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+421,99,Udaipur,Unknown,Hathi Pol (Elephant Gate),"Hathi Pol, Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+422,99,Udaipur,Unknown,Chand Pol,"Silavat Vari Road, Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+423,99,Udaipur,Unknown,Daiji Bridge Pol,"Daiji Bridge, Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+424,99,Udaipur,Unknown,Udaipol,"Udaipur Police Lines, Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+425,99,Udaipur,Unknown,Delhi Gate,"Bapu Bazar, Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+426,99,Udaipur,Unknown,Suraj Pol (Sun Gate),"Bapu Bazar, Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+427,99,Udaipur,Unknown,jagmandir palace,"Shitla Marg, Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+428,99,Udaipur,Unknown,Sunset viewpoint,"Lake Pichola Road, Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+429,99,Udaipur,Unknown,Moti Magri Memorial,"Fateh Sagar Road, Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+430,99,Udaipur,Unknown,Jagmandir Palace,"Shitla Marg, Udaipur - 313001, Rajasthan, India",0,0,0,0,0,0,0,0
+431,100,Pilani,Unknown,Rotunda,"Snake Path, Pilani - 333031, Rajasthan, India",0,0,0,0,0,0,0,0
+432,100,Pilani,Unknown,Gandhi,"Ram Marg, Pilani - 333031, Rajasthan, India",0,0,0,0,0,0,0,0
+433,100,Pilani,Unknown,Patel,"Krishna Marg, Pilani - 333031, Rajasthan, India",0,0,0,0,0,0,0,0
+434,100,Pilani,Unknown,Shiv Ganga,"T-lawns, Pilani - 333031, Rajasthan, India",0,0,0,0,0,0,0,0
+435,100,Pilani,Unknown,Director Quarters,"MDR82, Jherli - 333031, Rajasthan, India",0,0,0,0,0,0,0,0
+436,100,Pilani,Unknown,Shiva Statue,"NH709, Pilani - 333031, Rajasthan, India",0,0,0,0,0,0,0,0
+437,100,Pilani,Unknown,Bhagat Singh Statue,"Bhagat Singh Circle, Pilani - 333031, Rajasthan, India",0,0,0,0,0,0,0,0

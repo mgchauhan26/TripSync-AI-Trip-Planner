@@ -1,0 +1,521 @@
+stay_id,spot_id,place_id,place_name,spot_name,stay_name,price_per_night,budget_range
+1,1,1,Mahabaleshwar,Venna Lake,Venna Lake View Lodge,1200,Low
+2,1,1,Mahabaleshwar,Venna Lake,Mapro Garden Homestay,2800,Mid
+3,2,1,Mahabaleshwar,Arthur Seat,Bhushi Dam Guest House,1500,Low
+4,2,1,Mahabaleshwar,Arthur Seat,Lion Point Hill Resort,4200,High
+5,3,1,Mahabaleshwar,Wilson Point,Khandala Valley Inn,2200,Mid
+6,3,1,Mahabaleshwar,Wilson Point,Duke Nose Cliff Stay,4800,High
+7,4,1,Mahabaleshwar,Mapro Garden,Matheran Forest Cottage,1800,Mid
+8,4,1,Mahabaleshwar,Mapro Garden,Panorama Point Resort,5200,High
+9,5,2,Lonavala,Bhushi Dam,Alibaug Beachside Lodge,2500,Mid
+10,5,2,Lonavala,Bhushi Dam,Kolaba Fort Sea View Resort,6000,High
+11,6,2,Lonavala,Lion Point,Murud Janjira Homestay,1500,Low
+12,6,2,Lonavala,Lion Point,Murud Beach Resort,4500,High
+13,7,2,Lonavala,Rajmachi Point,Tarkarli MTDC Cottage,2000,Mid
+14,7,2,Lonavala,Rajmachi Point,Devbagh Beach Resort,5500,High
+15,8,2,Lonavala,Karla Caves,Ganpatipule Temple Stay,1200,Low
+16,8,2,Lonavala,Karla Caves,Ganpatipule Beach Resort,4800,High
+17,9,3,Khandala,Duke Nose,Raigad Fort Base Lodge,1400,Low
+18,9,3,Khandala,Duke Nose,Raigad Hill View Resort,3500,Mid
+19,10,3,Khandala,Amrutanjan Point,Elephanta Island Guest House,1800,Mid
+20,10,3,Khandala,Amrutanjan Point,Mumbai Harbour View Hotel,5200,High
+21,11,3,Khandala,Shooting Point,Ajanta Cave View Lodge,1600,Low
+22,11,3,Khandala,Shooting Point,Ajanta Heritage Resort,4200,High
+23,12,4,Matheran,Panorama Point,Ellora Cave Stay Inn,1700,Low
+24,12,4,Matheran,Panorama Point,Ellora Royal Resort,4800,High
+25,13,4,Matheran,Charlotte Lake,Aurangabad City Lodge,2000,Mid
+26,13,4,Matheran,Charlotte Lake,Aurangabad Palace Hotel,5500,High
+27,14,4,Matheran,Echo Point,Panchgani Hilltop Homestay,2200,Mid
+28,14,4,Matheran,Echo Point,Panchgani Valley Resort,5000,High
+29,15,4,Matheran,One Tree Hill,Sinhagad Base Lodge,1200,Low
+30,15,4,Matheran,One Tree Hill,Sinhagad Mountain Resort,3800,Mid
+31,16,5,Alibaug,Alibaug Beach,Lavasa Lakeside Inn,2600,Mid
+32,16,5,Alibaug,Alibaug Beach,Lavasa Luxury Resort,6200,High
+33,17,5,Alibaug,Kolaba Fort,Bhimashankar Forest Lodge,1800,Mid
+34,17,5,Alibaug,Kolaba Fort,Bhimashankar Eco Resort,4500,High
+35,18,5,Alibaug,Varsoli Beach,Nashik Vineyard Stay,2800,Mid
+36,18,5,Alibaug,Varsoli Beach,Nashik Wine Resort,6500,High
+37,19,5,Alibaug,Nagaon Beach,Trimbakeshwar Temple Lodge,1000,Low
+38,19,5,Alibaug,Nagaon Beach,Trimbak Hill Resort,4000,High
+39,20,6,Murud,Murud Janjira Fort,Shirdi Sai Guest House,1200,Low
+40,20,6,Murud,Murud Janjira Fort,Shirdi Comfort Hotel,3000,Mid
+41,21,6,Murud,Murud Beach,Kolhapur City Inn,1800,Mid
+42,21,6,Murud,Murud Beach,Kolhapur Heritage Palace,5200,High
+43,22,6,Murud,Datta Mandir,Ratnagiri Coastal Homestay,1500,Low
+44,22,6,Murud,Datta Mandir,Ratnagiri Sea View Resort,4800,High
+45,23,7,Tarkarli,Tarkarli Beach,Chiplun Riverside Lodge,1400,Low
+46,23,7,Tarkarli,Tarkarli Beach,Chiplun Green Valley Resort,3600,Mid
+47,24,7,Tarkarli,Devbagh Beach,Amboli Hill Homestay,1600,Low
+48,24,7,Tarkarli,Devbagh Beach,Amboli Misty Resort,4200,High
+49,25,7,Tarkarli,Karli Backwaters,Sindhudurg Fort Lodge,1300,Low
+50,25,7,Tarkarli,Karli Backwaters,Sindhudurg Coastal Resort,3900,Mid
+51,26,8,Ganpatipule,Ganpatipule Temple,Dapoli Beach Cottage,1800,Mid
+52,26,8,Ganpatipule,Ganpatipule Temple,Dapoli Sea Breeze Resort,4500,High
+53,27,8,Ganpatipule,Ganpatipule Beach,Alibaug Nagaon Stay,2000,Mid
+54,27,8,Ganpatipule,Ganpatipule Beach,Nagaon Beach Resort,5200,High
+55,28,8,Ganpatipule,Jaigad Fort,Tamhini Ghat Nature Lodge,1400,Low
+56,28,8,Ganpatipule,Jaigad Fort,Tamhini Forest Resort,3800,Mid
+57,29,9,Ratnagiri,Bhatye Beach,Lonavala Hill View Hotel,2600,Mid
+58,29,9,Ratnagiri,Bhatye Beach,Lonavala Luxury Villa Stay,7000,High
+59,30,9,Ratnagiri,Thibaw Palace,Karla Cave Guest House,1500,Low
+60,30,9,Ratnagiri,Thibaw Palace,Karla Heritage Resort,4200,High
+61,31,9,Ratnagiri,Pawas Village,Bhandardara Lake Lodge,1800,Mid
+62,31,9,Ratnagiri,Pawas Village,Bhandardara Lakeside Resort,5000,High
+63,32,10,Sindhudurg,Sindhudurg Fort,Igatpuri Hill Stay,2000,Mid
+64,32,10,Sindhudurg,Sindhudurg Fort,Igatpuri Wellness Resort,6500,High
+65,33,10,Sindhudurg,Malvan Beach,Satara City Lodge,1600,Low
+66,33,10,Sindhudurg,Malvan Beach,Satara Hilltop Resort,4200,High
+67,34,10,Sindhudurg,Tsunami Island,Kaas Plateau Homestay,1400,Low
+68,34,10,Sindhudurg,Tsunami Island,Kaas Nature Resort,3600,Mid
+69,35,11,Panchgani,Table Land,Solapur City Inn,1800,Mid
+70,35,11,Panchgani,Table Land,Solapur Business Hotel,4500,High
+71,36,11,Panchgani,Sydney Point,Pandharpur Temple Lodge,1000,Low
+72,36,11,Panchgani,Sydney Point,Pandharpur Comfort Stay,2800,Mid
+73,37,11,Panchgani,Parsi Point,Osmanabad Guest House,1400,Low
+74,37,11,Panchgani,Parsi Point,Osmanabad Hill Resort,3500,Mid
+75,38,12,Igatpuri,Vipassana Center,Latur City Stay,1600,Low
+76,38,12,Igatpuri,Vipassana Center,Latur Premium Hotel,4200,High
+77,39,12,Igatpuri,Ashoka Waterfall,Aurangabad Airport Inn,2200,Mid
+78,39,12,Igatpuri,Ashoka Waterfall,Aurangabad Grand Hotel,5800,High
+79,40,12,Igatpuri,Tringalwadi Fort,Nanded Riverside Lodge,1500,Low
+80,40,12,Igatpuri,Tringalwadi Fort,Nanded Royal Stay,4000,High
+81,41,13,Bhandardara,Arthur Lake,Yavatmal Forest Lodge,1600,Low
+82,41,13,Bhandardara,Arthur Lake,Yavatmal Nature Resort,3600,Mid
+83,42,13,Bhandardara,Randha Falls,Chandrapur Tiger Stay,2000,Mid
+84,42,13,Bhandardara,Randha Falls,Chandrapur Jungle Resort,5500,High
+85,43,13,Bhandardara,Wilson Dam,Nagpur City Guest House,1800,Mid
+86,43,13,Bhandardara,Wilson Dam,Nagpur Luxury Hotel,6200,High
+87,44,14,Ajanta,Ajanta Cave 1,Wardha Ashram Stay,1200,Low
+88,44,14,Ajanta,Ajanta Cave 1,Wardha Heritage Resort,3800,Mid
+89,45,14,Ajanta,Ajanta Cave 2,Amravati City Lodge,1500,Low
+90,45,14,Ajanta,Ajanta Cave 2,Amravati Comfort Hotel,3200,Mid
+91,46,14,Ajanta,Ajanta Viewpoint,Melghat Forest Lodge,1800,Mid
+92,46,14,Ajanta,Ajanta Viewpoint,Melghat Tiger Resort,5200,High
+93,47,15,Ellora,Kailasa Temple,Akola Guest House,1400,Low
+94,47,15,Ellora,Kailasa Temple,Akola Business Hotel,3600,Mid
+95,48,15,Ellora,Ellora Cave 10,Buldhana Countryside Stay,1200,Low
+96,48,15,Ellora,Ellora Cave 10,Buldhana Hill Resort,3400,Mid
+97,49,15,Ellora,Ellora Cave 16,Jalgaon City Inn,1600,Low
+98,49,15,Ellora,Ellora Cave 16,Jalgaon Premium Hotel,4200,High
+99,50,16,Aurangabad,Bibi Ka Maqbara,Dhule Highway Lodge,1400,Low
+100,50,16,Aurangabad,Bibi Ka Maqbara,Dhule Comfort Stay,3200,Mid
+101,51,16,Aurangabad,Aurangabad Caves,Nandurbar Guest House,1300,Low
+102,51,16,Aurangabad,Aurangabad Caves,Nandurbar Green Resort,3500,Mid
+103,52,16,Aurangabad,Daulatabad Fort,Palghar Coastal Stay,1800,Mid
+104,52,16,Aurangabad,Daulatabad Fort,Palghar Beach Resort,4800,High
+105,53,17,Nashik,Trimbakeshwar Temple,Dahanu Sea View Lodge,2000,Mid
+106,53,17,Nashik,Trimbakeshwar Temple,Dahanu Beach Resort,5200,High
+107,54,17,Nashik,Sula Vineyards,Jawhar Tribal Homestay,1200,Low
+108,54,17,Nashik,Sula Vineyards,Jawhar Hill Resort,3600,Mid
+109,55,17,Nashik,Pandavleni Caves,Vikramgad Nature Stay,1500,Low
+110,55,17,Nashik,Pandavleni Caves,Vikramgad Eco Resort,3900,Mid
+111,56,18,Shirdi,Sai Baba Temple,Shahapur Lake Lodge,1800,Mid
+112,56,18,Shirdi,Sai Baba Temple,Shahapur Lakeside Resort,4500,High
+113,57,18,Shirdi,Dwarkamai,Malshej Ghat Hill Stay,2000,Mid
+114,57,18,Shirdi,Dwarkamai,Malshej Mountain Resort,5500,High
+115,58,18,Shirdi,Chavadi,Junnar Heritage Lodge,1600,Low
+116,58,18,Shirdi,Chavadi,Junnar Fort View Resort,4200,High
+117,59,19,Kolhapur,Mahalaxmi Temple,Shivneri Base Homestay,1400,Low
+118,59,19,Kolhapur,Mahalaxmi Temple,Shivneri Hill Resort,3600,Mid
+119,60,19,Kolhapur,Rankala Lake,Pune City Guest House,2200,Mid
+120,60,19,Kolhapur,Rankala Lake,Pune Business Hotel,6000,High
+121,61,19,Kolhapur,Panhala Fort,Mumbai Budget Inn,2500,Mid
+122,61,19,Kolhapur,Panhala Fort,Mumbai Luxury Sea Hotel,8000,High
+123,62,20,Satara,Kaas Plateau,Thane City Lodge,2000,Mid
+124,62,20,Satara,Kaas Plateau,Thane Lake View Resort,5200,High
+125,63,20,Satara,Thoseghar Falls,Kalyan Highway Stay,1500,Low
+126,63,20,Satara,Thoseghar Falls,Kalyan Comfort Hotel,3200,Mid
+127,64,20,Satara,Sajjangad Fort,Bhiwandi Transit Lodge,1400,Low
+128,64,20,Satara,Sajjangad Fort,Bhiwandi Business Hotel,3000,Mid
+129,65,21,Raigad,Raigad Fort,Ulhasnagar City Inn,1600,Low
+130,65,21,Raigad,Raigad Fort,Ulhasnagar Premium Stay,4200,High
+131,66,21,Raigad,Hirkani Buruj,Karjat Hill Lodge,1800,Mid
+132,66,21,Raigad,Hirkani Buruj,Karjat Valley Resort,4800,High
+133,67,21,Raigad,Gangasagar Lake,Panvel Nature Stay,2000,Mid
+134,67,21,Raigad,Gangasagar Lake,Panvel Hill Resort,5200,High
+135,68,22,Pratapgad,Pratapgad Fort,Pen Riverside Lodge,1400,Low
+136,68,22,Pratapgad,Pratapgad Fort,Pen Countryside Resort,3500,Mid
+137,69,22,Pratapgad,Bhavai Devi Temple,Rajapur Coastal Stay,1500,Low
+138,69,22,Pratapgad,Bhavai Devi Temple,Rajapur Sea View Resort,4200,High
+139,70,22,Pratapgad,Sunset Point,Malvan Beach Homestay,1800,Mid
+140,70,22,Pratapgad,Sunset Point,Malvan Sea Pearl Resort,5000,High
+141,71,23,Chiplun,Vashishti River,Kudal Town Lodge,1400,Low
+142,71,23,Chiplun,Vashishti River,Kudal Comfort Hotel,3200,Mid
+143,72,23,Chiplun,Guhagar Beach,Sawantwadi Heritage Stay,1800,Mid
+144,72,23,Chiplun,Guhagar Beach,Sawantwadi Palace Resort,5500,High
+145,73,23,Chiplun,Koyna Backwaters,Vengurla Beach Cottage,2000,Mid
+146,73,23,Chiplun,Koyna Backwaters,Vengurla Ocean Resort,5200,High
+147,74,24,Dapoli,Dapoli Beach,Devgad Fort Lodge,1500,Low
+148,74,24,Dapoli,Dapoli Beach,Devgad Sea Cliff Resort,4200,High
+149,75,24,Dapoli,Ladghar Beach,Parbhani City Inn,1600,Low
+150,75,24,Dapoli,Ladghar Beach,Parbhani Business Hotel,3600,Mid
+151,76,24,Dapoli,Suvarnadurg Fort,Hingoli Guest House,1400,Low
+152,76,24,Dapoli,Suvarnadurg Fort,Hingoli Comfort Stay,3000,Mid
+153,77,25,Harihareshwar,Harihareshwar Temple,Washim City Lodge,1500,Low
+154,77,25,Harihareshwar,Harihareshwar Temple,Washim Premium Hotel,3800,Mid
+155,78,25,Harihareshwar,Harihareshwar Beach,Gondia Forest Lodge,1800,Mid
+156,78,25,Harihareshwar,Harihareshwar Beach,Gondia Lake Resort,4500,High
+157,79,25,Harihareshwar,Kalbhairav Temple,Gadchiroli Jungle Stay,1600,Low
+158,79,25,Harihareshwar,Kalbhairav Temple,Gadchiroli Nature Resort,4200,High
+159,80,26,Guhagar,Guhagar Beach,Bhandara Riverside Lodge,1500,Low
+160,80,26,Guhagar,Guhagar Beach,Bhandara Lake View Resort,3800,Mid
+161,81,26,Guhagar,Velneshwar Temple,Yavatmal Countryside Stay,1400,Low
+162,81,26,Guhagar,Velneshwar Temple,Yavatmal Comfort Resort,3600,Mid
+163,82,26,Guhagar,Anjarle Beach,Wani Coal Town Lodge,1300,Low
+164,82,26,Guhagar,Anjarle Beach,Wani Business Hotel,3000,Mid
+165,83,27,Amboli,Amboli Falls,Chimur Forest Stay,1600,Low
+166,83,27,Amboli,Amboli Falls,Chimur Nature Resort,4200,High
+167,84,27,Amboli,Kawalesaad Point,Umred Karhandla Lodge,2000,Mid
+168,84,27,Amboli,Kawalesaad Point,Umred Tiger Resort,5500,High
+169,85,27,Amboli,Sunset Point,Deolapar Jungle Camp,1800,Mid
+170,85,27,Amboli,Sunset Point,Deolapar Wildlife Resort,5200,High
+171,86,28,Lavasa,Dasve Viewpoint,Pauni Riverside Lodge,1400,Low
+172,86,28,Lavasa,Dasve Viewpoint,Pauni Heritage Stay,3600,Mid
+173,87,28,Lavasa,Temghar Dam,Tadoba Base Homestay,2000,Mid
+174,87,28,Lavasa,Temghar Dam,Tadoba Jungle Resort,6500,High
+175,88,28,Lavasa,Warasgaon Lake,Ballarpur City Lodge,1500,Low
+176,88,28,Lavasa,Warasgaon Lake,Ballarpur Comfort Hotel,3200,Mid
+177,89,29,Pune,Shaniwar Wada,Chandrapur Lake View Stay,1800,Mid
+178,89,29,Pune,Shaniwar Wada,Chandrapur Premium Resort,5200,High
+179,90,29,Pune,Aga Khan Palace,Wardha River Lodge,1400,Low
+180,90,29,Pune,Aga Khan Palace,Wardha Nature Resort,3800,Mid
+181,91,29,Pune,Sinhagad Fort,Sevagram Ashram Stay,1200,Low
+182,91,29,Pune,Sinhagad Fort,Sevagram Heritage Lodge,3000,Mid
+183,92,30,Mumbai,Gateway of India,Arvi Town Guest House,1300,Low
+184,92,30,Mumbai,Gateway of India,Arvi Comfort Stay,3200,Mid
+185,93,30,Mumbai,Marine Drive,Pulgaon City Inn,1400,Low
+186,93,30,Mumbai,Marine Drive,Pulgaon Premium Hotel,3600,Mid
+187,94,30,Mumbai,Elephanta Caves,Kalamb Forest Lodge,1500,Low
+188,94,30,Mumbai,Elephanta Caves,Kalamb Hill Resort,3900,Mid
+189,95,30,Mumbai,Juhu Beach,Seloo Countryside Stay,1200,Low
+190,95,30,Mumbai,Juhu Beach,Seloo Comfort Resort,3000,Mid
+191,96,31,Nagpur,Deekshabhoomi,Katol City Lodge,1500,Low
+192,96,31,Nagpur,Deekshabhoomi,Katol Business Hotel,3400,Mid
+193,97,31,Nagpur,Ambazari Lake,Saoner Riverside Stay,1600,Low
+194,97,31,Nagpur,Ambazari Lake,Saoner Lake View Resort,4200,High
+195,98,31,Nagpur,Sitabuldi Fort,Parseoni Nature Lodge,1800,Mid
+196,98,31,Nagpur,Sitabuldi Fort,Parseoni Eco Resort,4800,High
+197,99,32,Amravati,Chikhaldara Hill View,Narkhed Town Inn,1400,Low
+198,99,32,Amravati,Chikhaldara Hill View,Narkhed Comfort Stay,3000,Mid
+199,100,32,Amravati,Gavilgad Fort,Kalmeshwar Guest House,1500,Low
+200,100,32,Amravati,Gavilgad Fort,Kalmeshwar Premium Hotel,3800,Mid
+201,101,32,Amravati,Melghat Viewpoint,Katol Lake View Lodge,1600,Low
+202,101,32,Amravati,Melghat Viewpoint,Katol Hill Resort,4200,High
+203,102,32,Amravati,Semadoh Lake,Warora City Guest House,1400,Low
+204,102,32,Amravati,Semadoh Lake,Warora Comfort Stay,3200,Mid
+205,103,33,Chandrapur,Tadoba Lake,Chandur Railway Inn,1500,Low
+206,103,33,Chandrapur,Tadoba Lake,Chandur Green Resort,3800,Mid
+207,104,33,Chandrapur,Moharli Gate,Daryapur Town Lodge,1300,Low
+208,104,33,Chandrapur,Moharli Gate,Daryapur Business Hotel,3000,Mid
+209,105,33,Chandrapur,Kolara Gate,Achalpur Heritage Stay,1800,Mid
+210,105,33,Chandrapur,Kolara Gate,Achalpur Royal Resort,5200,High
+211,106,34,Tadoba,Tadoba Core Zone,Morshi Countryside Lodge,1500,Low
+212,106,34,Tadoba,Tadoba Core Zone,Morshi Hill View Resort,3600,Mid
+213,107,34,Tadoba,Agarzari Buffer,Teosa City Inn,1400,Low
+214,107,34,Tadoba,Agarzari Buffer,Teosa Comfort Hotel,3200,Mid
+215,108,34,Tadoba,Panchdhara Viewpoint,Patur Riverside Stay,1600,Low
+216,108,34,Tadoba,Panchdhara Viewpoint,Patur Lake Resort,4000,High
+217,109,35,Melghat,Chikhaldara Lake,Balapur Town Lodge,1300,Low
+218,109,35,Melghat,Chikhaldara Lake,Balapur Premium Stay,3400,Mid
+219,110,35,Melghat,Gawilgarh Fort,Risod City Guest House,1400,Low
+220,110,35,Melghat,Gawilgarh Fort,Risod Business Hotel,3600,Mid
+221,111,35,Melghat,Panchbol Point,Malegaon Highway Lodge,1500,Low
+222,111,35,Melghat,Panchbol Point,Malegaon Comfort Hotel,3200,Mid
+223,112,36,Solapur,Siddheshwar Temple,Manmad Railway Inn,1800,Mid
+224,112,36,Solapur,Siddheshwar Temple,Manmad Transit Hotel,3800,Mid
+225,113,36,Solapur,Great Indian Bustard Sanctuary,Nandgaon Temple Stay,1200,Low
+226,113,36,Solapur,Great Indian Bustard Sanctuary,Nandgaon Heritage Resort,3500,Mid
+227,114,36,Solapur,Hipparga Lake,Kalwan Hill Lodge,1600,Low
+228,114,36,Solapur,Hipparga Lake,Kalwan Valley Resort,4200,High
+229,115,37,Akkalkot,Akkalkot Temple,Peint Tribal Homestay,1400,Low
+230,115,37,Akkalkot,Akkalkot Temple,Peint Nature Resort,3800,Mid
+231,116,37,Akkalkot,Swami Samarth Math,Trimbak Ghat Lodge,1800,Mid
+232,116,37,Akkalkot,Swami Samarth Math,Trimbak Spiritual Resort,4500,High
+233,117,37,Akkalkot,Narayanpur Dam,Surgana Forest Stay,1500,Low
+234,117,37,Akkalkot,Narayanpur Dam,Surgana Eco Resort,4000,High
+235,118,38,Osmanabad,Tulja Bhavani Temple,Deola Town Lodge,1300,Low
+236,118,38,Osmanabad,Tulja Bhavani Temple,Deola Comfort Hotel,3000,Mid
+237,119,38,Osmanabad,Gomukh Tirth,Chandwad Fort View Stay,1600,Low
+238,119,38,Osmanabad,Gomukh Tirth,Chandwad Heritage Resort,4200,High
+239,120,38,Osmanabad,Tuljapur Fort,Igatpuri Station Inn,1800,Mid
+240,120,38,Osmanabad,Tuljapur Fort,Igatpuri Mountain Resort,6500,High
+241,121,39,Tuljapur,Tuljapur Ghat,Yeola Town Lodge,1400,Low
+242,121,39,Tuljapur,Tuljapur Ghat,Yeola Comfort Stay,3200,Mid
+243,122,39,Tuljapur,Ramling Temple,Niphad Vineyard Stay,2200,Mid
+244,122,39,Tuljapur,Ramling Temple,Niphad Wine Resort,5800,High
+245,123,39,Tuljapur,Yedshi Ramling,Sinnar Highway Lodge,1500,Low
+246,123,39,Tuljapur,Yedshi Ramling,Sinnar Premium Hotel,3800,Mid
+247,124,40,Beed,Beed Fort,Kopargaon City Inn,1600,Low
+248,124,40,Beed,Beed Fort,Kopargaon Business Hotel,3600,Mid
+249,125,40,Beed,Masjid-e-Hamidia,Shirdi Temple View Stay,1800,Mid
+250,125,40,Beed,Masjid-e-Hamidia,Shirdi Premium Resort,5200,High
+251,126,40,Beed,Kapil Dhara,Rahata Town Lodge,1400,Low
+252,126,40,Beed,Kapil Dhara,Rahata Comfort Stay,3200,Mid
+253,127,41,Jalgaon,Ajanta Viewpoint,Newasa Ghat Lodge,1500,Low
+254,127,41,Jalgaon,Ajanta Viewpoint,Newasa Riverside Resort,3800,Mid
+255,128,41,Jalgaon,Mehrun Lake,Shrigonda City Inn,1400,Low
+256,128,41,Jalgaon,Mehrun Lake,Shrigonda Business Hotel,3600,Mid
+257,129,41,Jalgaon,Gandhi Research Foundation,Karjat Foothill Stay,1800,Mid
+258,129,41,Jalgaon,Gandhi Research Foundation,Karjat Luxury Valley Resort,6200,High
+259,130,42,Dhule,Laling Fort,Khalapur Highway Lodge,1500,Low
+260,130,42,Dhule,Laling Fort,Khalapur Green Resort,3800,Mid
+261,131,42,Dhule,Songir Fort,Tala Forest Stay,2000,Mid
+262,131,42,Dhule,Songir Fort,Tala Wildlife Resort,5500,High
+263,132,42,Dhule,Bhamer Fort,Mangaon Town Lodge,1400,Low
+264,132,42,Dhule,Bhamer Fort,Mangaon Comfort Hotel,3200,Mid
+265,133,43,Nanded,Hazur Sahib,Roha Riverside Stay,1600,Low
+266,133,43,Nanded,Hazur Sahib,Roha Lake View Resort,4000,High
+267,134,43,Nanded,Godavari Ghat,Poladpur Ghat Lodge,1500,Low
+268,134,43,Nanded,Godavari Ghat,Poladpur Valley Resort,3800,Mid
+269,135,43,Nanded,Kaleshwar Temple,Chiplun Hill Stay,1800,Mid
+270,135,43,Nanded,Kaleshwar Temple,Chiplun Riverside Resort,4500,High
+271,136,44,Parbhani,Turabul Haq Dargah,Guhagar Beach Lodge,2000,Mid
+272,136,44,Parbhani,Turabul Haq Dargah,Guhagar Sea Pearl Resort,5200,High
+273,137,44,Parbhani,Jintur Gate,Sangameshwar Temple Stay,1200,Low
+274,137,44,Parbhani,Jintur Gate,Sangameshwar Heritage Lodge,3500,Mid
+275,138,44,Parbhani,Pathri Fort,Lanja Town Inn,1400,Low
+276,138,44,Parbhani,Pathri Fort,Lanja Comfort Hotel,3200,Mid
+277,139,45,Hingoli,Aundha Nagnath Temple,Rajapur Fort View Stay,1600,Low
+278,139,45,Hingoli,Aundha Nagnath Temple,Rajapur Sea Cliff Resort,4200,High
+279,140,45,Hingoli,Sant Namdev Sansthan,Devrukh Hill Lodge,1500,Low
+280,140,45,Hingoli,Sant Namdev Sansthan,Devrukh Valley Resort,3800,Mid
+281,141,45,Hingoli,Kayadhu River,Dapoli Coastal Stay,2000,Mid
+282,141,45,Hingoli,Kayadhu River,Dapoli Luxury Sea Resort,5500,High
+283,142,46,Washim,Washim Fort,Mandangad Fort Base Lodge,1400,Low
+284,142,46,Washim,Washim Fort,Mandangad Hill Resort,3600,Mid
+285,143,46,Washim,Balaji Temple,Khed Town Guest House,1500,Low
+286,143,46,Washim,Balaji Temple,Khed Comfort Hotel,3200,Mid
+287,144,46,Washim,Ansing Fort,Patan Hill Stay,1600,Low
+288,144,46,Washim,Ansing Fort,Patan Valley Resort,4200,High
+289,145,47,Wardha,Sevagram Ashram,Karad Riverside Lodge,1800,Mid
+290,145,47,Wardha,Sevagram Ashram,Karad Business Hotel,3800,Mid
+291,146,47,Wardha,Vishwa Shanti Stupa,Koyna Backwater Stay,2000,Mid
+292,146,47,Wardha,Vishwa Shanti Stupa,Koyna Lake Resort,5200,High
+293,147,47,Wardha,Bor Dam,Wai Temple View Stay,1500,Low
+294,147,47,Wardha,Bor Dam,Wai Heritage Resort,3800,Mid
+295,148,48,Yavatmal,Tipeshwar Sanctuary,Satara City Guest House,1600,Low
+296,148,48,Yavatmal,Tipeshwar Sanctuary,Satara Premium Hotel,4200,High
+297,149,48,Yavatmal,Painganga River,Phaltan Town Lodge,1400,Low
+298,149,48,Yavatmal,Painganga River,Phaltan Comfort Stay,3200,Mid
+299,150,48,Yavatmal,Mahur Temple,Koregaon Hill Stay,1600,Low
+300,150,48,Yavatmal,Mahur Temple,Koregaon Valley Resort,4200,High
+301,151,49,Karjat,Karjat Waterfalls,Shirur Riverside Lodge,1500,Low
+302,151,49,Karjat,Karjat Waterfalls,Shirur Comfort Hotel,3200,Mid
+303,152,49,Karjat,Kondana Caves,Daund Highway Stay,1400,Low
+304,152,49,Karjat,Kondana Caves,Daund Business Hotel,3000,Mid
+305,153,49,Karjat,Peth Fort,Baramati Vineyard Stay,2200,Mid
+306,153,49,Karjat,Peth Fort,Baramati Luxury Resort,5800,High
+307,154,50,Bhimashankar,Bhimashankar Temple,Indapur Town Lodge,1400,Low
+308,154,50,Bhimashankar,Bhimashankar Temple,Indapur Comfort Stay,3200,Mid
+309,155,50,Bhimashankar,Hanuman Lake,Jejuri Temple Stay,1200,Low
+310,155,50,Bhimashankar,Hanuman Lake,Jejuri Heritage Lodge,3500,Mid
+311,156,50,Bhimashankar,Bhimashankar Sanctuary,Velhe Ghat Lodge,1500,Low
+312,156,50,Bhimashankar,Bhimashankar Sanctuary,Velhe Nature Resort,3800,Mid
+313,157,51,Kaas Plateau,Kaas Plateau Trail,Bhor Lake Stay,1800,Mid
+314,157,51,Kaas Plateau,Kaas Plateau Trail,Bhor Valley Resort,4200,High
+315,158,51,Kaas Plateau,Kaas Lake,Mulshi Lakeside Lodge,2000,Mid
+316,158,51,Kaas Plateau,Kaas Lake,Mulshi Luxury Resort,6500,High
+317,159,51,Kaas Plateau,Plateau Viewpoint,Pirangut Hill Stay,1600,Low
+318,159,51,Kaas Plateau,Plateau Viewpoint,Pirangut Comfort Hotel,3200,Mid
+319,160,52,Jawhar,Dabhosa Falls,Pawna Lake Camping Stay,1800,Mid
+320,160,52,Jawhar,Dabhosa Falls,Pawna Lake Resort,5200,High
+321,161,52,Jawhar,Shirpamal,Ambegaon Base Lodge,1500,Low
+322,161,52,Jawhar,Shirpamal,Ambegaon Hill Resort,3800,Mid
+323,162,52,Jawhar,Hanuman Point,Junnar Temple Stay,1200,Low
+324,162,52,Jawhar,Hanuman Point,Junnar Heritage Resort,3500,Mid
+325,163,53,Wilson Hills,Sunset Point Wilson,Manchar City Inn,1400,Low
+326,163,53,Wilson Hills,Sunset Point Wilson,Manchar Comfort Hotel,3200,Mid
+327,164,53,Wilson Hills,Barumal Point,Shirwal Highway Lodge,1500,Low
+328,164,53,Wilson Hills,Barumal Point,Shirwal Business Stay,3000,Mid
+329,165,53,Wilson Hills,Ozar Falls,Medha Valley Stay,1600,Low
+330,165,53,Wilson Hills,Ozar Falls,Medha Nature Resort,4200,High
+331,166,54,Toranmal,Toranmal Lake,Patan Ghat Lodge,1500,Low
+332,166,54,Toranmal,Toranmal Lake,Patan Hill Resort,3800,Mid
+333,167,54,Toranmal,Yashwant Lake,Kolhapur City Guest House,1800,Mid
+334,167,54,Toranmal,Yashwant Lake,Kolhapur Palace Hotel,5500,High
+335,168,54,Toranmal,Gorakhnath Temple,Ichalkaranji Town Lodge,1600,Low
+336,168,54,Toranmal,Gorakhnath Temple,Ichalkaranji Comfort Hotel,3200,Mid
+337,169,55,Harishchandragad,Konkan Kada,Gaganbawda Hill Stay,2000,Mid
+338,169,55,Harishchandragad,Konkan Kada,Gaganbawda Valley Resort,5200,High
+339,170,55,Harishchandragad,Kedareshwar Cave,Radhanagari Wildlife Stay,1800,Mid
+340,170,55,Harishchandragad,Kedareshwar Cave,Radhanagari Forest Resort,4500,High
+341,171,55,Harishchandragad,Taramati Peak,Kagal Town Lodge,1400,Low
+342,171,55,Harishchandragad,Taramati Peak,Kagal Comfort Stay,3200,Mid
+343,172,56,Lohagad,Lohagad Fort,Gadhinglaj City Inn,1500,Low
+344,172,56,Lohagad,Lohagad Fort,Gadhinglaj Business Hotel,3600,Mid
+345,173,56,Lohagad,Bhaja Caves,Ajra Countryside Stay,1400,Low
+346,173,56,Lohagad,Bhaja Caves,Ajra Hill Resort,3800,Mid
+347,174,56,Lohagad,Vinchukata,Chandgad Forest Lodge,1600,Low
+348,174,56,Lohagad,Vinchukata,Chandgad Nature Resort,4200,High
+349,175,57,Visapur Fort,Visapur Fort,Savarde Ghat Stay,1500,Low
+350,175,57,Visapur Fort,Visapur Fort,Savarde Valley Resort,3800,Mid
+351,176,57,Visapur Fort,Visapur Village,Sangli City Guest House,1800,Mid
+352,176,57,Visapur Fort,Visapur Village,Sangli Premium Hotel,4200,High
+353,177,57,Visapur Fort,Visapur Waterfalls,Miraj Transit Lodge,1600,Low
+354,177,57,Visapur Fort,Visapur Waterfalls,Miraj Comfort Stay,3200,Mid
+355,178,58,Sinhagad,Sinhagad Fort Top,Tasgaon Vineyard Stay,2200,Mid
+356,178,58,Sinhagad,Sinhagad Fort Top,Tasgaon Wine Resort,5800,High
+357,179,58,Sinhagad,Kalyan Darwaja,Jat Desert Stay,1400,Low
+358,179,58,Sinhagad,Kalyan Darwaja,Jat Comfort Lodge,3000,Mid
+359,180,58,Sinhagad,Pune Darwaja,Atpadi Town Inn,1300,Low
+360,180,58,Sinhagad,Pune Darwaja,Atpadi Premium Stay,3400,Mid
+511,311,58,Sinhagad,Fort Museum,Skyline Premium Suites,5900,
+361,181,59,Rajmachi,Rajmachi Fort,Khanapur Forest Stay,1500,Low
+362,181,59,Rajmachi,Rajmachi Fort,Khanapur Nature Resort,3800,Mid
+363,182,59,Rajmachi,Shrivardhan Fort,Vita City Guest House,1600,Low
+364,182,59,Rajmachi,Shrivardhan Fort,Vita Business Hotel,3600,Mid
+365,183,59,Rajmachi,Manaranjan Fort,Islampur Riverside Stay,1800,Mid
+366,183,59,Rajmachi,Manaranjan Fort,Islampur Comfort Hotel,3200,Mid
+512,312,59,Rajmachi,Trekking Base Camp,Backpacker Base Hostel,700,
+367,184,60,Devkund,Devkund Waterfall,Shirala Hill Stay,1600,Low
+368,184,60,Devkund,Devkund Waterfall,Shirala Valley Resort,4200,High
+369,185,60,Devkund,Bhira Dam,Palus Sugar Belt Stay,1500,Low
+370,185,60,Devkund,Bhira Dam,Palus Comfort Lodge,3200,Mid
+371,186,60,Devkund,Forest Trail,Malshiras Town Inn,1400,Low
+372,186,60,Devkund,Forest Trail,Malshiras Business Stay,3000,Mid
+478,278,60,Devkund,Bhira Forest,Countryside Homestay,1600,
+513,313,60,Devkund,River Crossing Point,Lake Mist Homestay,1800,
+373,187,61,Tamhini Ghat,Tamhini Viewpoint,Barshi City Guest House,1600,Low
+374,187,61,Tamhini Ghat,Tamhini Viewpoint,Barshi Premium Hotel,4200,High
+375,188,61,Tamhini Ghat,Plus Valley,Akkalkot Temple Stay,1200,Low
+376,188,61,Tamhini Ghat,Plus Valley,Akkalkot Heritage Lodge,3500,Mid
+377,189,61,Tamhini Ghat,Waterfall Point,Mohol Town Lodge,1400,Low
+378,189,61,Tamhini Ghat,Waterfall Point,Mohol Comfort Stay,3200,Mid
+479,279,61,Tamhini Ghat,Mulshi Viewpoint,Majestic Plateau Resort,4800,
+514,314,61,Tamhini Ghat,Misty Hill Curve,Mountain Jewel Resort,4700,
+379,190,62,Malshej Ghat,Malshej Falls,Karmala Highway Stay,1500,Low
+380,190,62,Malshej Ghat,Malshej Falls,Karmala Business Hotel,3000,Mid
+381,191,62,Malshej Ghat,Flamingo Hill,Madha Countryside Stay,1400,Low
+382,191,62,Malshej Ghat,Flamingo Hill,Madha Green Resort,3600,Mid
+383,192,62,Malshej Ghat,Shivneri View,Sangola Desert Stay,1500,Low
+384,192,62,Malshej Ghat,Shivneri View,Sangola Premium Lodge,3400,Mid
+480,280,62,Malshej Ghat,Pimpalgaon Joga Dam,Hilltop View Guest House,1800,
+515,315,62,Malshej Ghat,Seasonal Lake,Temple Town Lodge,900,
+385,193,63,Rajapur,Rajapur Ghat,Mangalwedha Temple Stay,1200,Low
+386,193,63,Rajapur,Rajapur Ghat,Mangalwedha Heritage Resort,3500,Mid
+387,194,63,Rajapur,Mango Orchards,Pandharpur River Lodge,1600,Low
+388,194,63,Rajapur,Mango Orchards,Pandharpur Comfort Hotel,3200,Mid
+389,195,63,Rajapur,Temple Complex,Akluj Riverside Stay,1800,Mid
+390,195,63,Rajapur,Temple Complex,Akluj Lake Resort,4200,High
+481,281,63,Rajapur,Scenic Ghat Road,Zen Valley Eco Retreat,3500,
+516,316,63,Rajapur,Heritage Temple,Green Valley Executive Stay,3300,
+391,196,64,Velas,Velas Beach,Indapur Ghat Lodge,1500,Low
+392,196,64,Velas,Velas Beach,Indapur Valley Resort,3800,Mid
+393,197,64,Velas,Velas Turtle Festival,Tembhurni Highway Stay,1400,Low
+394,197,64,Velas,Velas Turtle Festival,Tembhurni Comfort Hotel,3000,Mid
+395,198,64,Velas,Anjarle Lighthouse,Kurduwadi City Lodge,1600,Low
+396,198,64,Velas,Anjarle Lighthouse,Kurduwadi Business Stay,3600,Mid
+482,282,64,Velas,Coastal Trail,Local Comfort Lodge,1000,
+517,317,64,Velas,Observation Deck,Country Bliss Homestay,1500,
+397,199,65,Kashid,Kashid Beach,Solapur City Guest House,1800,Mid
+398,199,65,Kashid,Kashid Beach,Solapur Luxury Hotel,5200,High
+399,200,65,Kashid,Korlai Fort,Akkalkot Road Lodge,1500,Low
+400,200,65,Kashid,Korlai Fort,Akkalkot Premium Stay,3800,Mid
+401,201,65,Kashid,Revdanda Beach,Green Valley Homestay,1200,
+483,283,65,Kashid,Revdanda Fort,Golden Ghats Palace,7000,
+518,318,65,Kashid,Beach Camping Zone,River Crown Resort,5200,
+402,202,66,Nagaon,Nagaon Beach Main,Sunrise View Lodge,1800,
+403,203,66,Nagaon,Nagaon Jet Ski,Hilltop Residency,3200,
+404,204,66,Nagaon,Nagaon Market,River Bend Guest House,1400,
+484,284,66,Nagaon,Nagaon Sunset Point,Quiet Nights Homestay,1300,
+519,319,66,Nagaon,Coastal Food Street,Old Fort Heritage Stay,3900,
+405,205,67,Aarey Colony,Aarey Forest,Forest Edge Stay,2500,
+406,206,67,Aarey Colony,Aarey Lake,Misty Morning Resort,4200,
+407,207,67,Aarey Colony,Chota Kashmir,Shivneri Tourist Lodge,900,
+485,285,67,Aarey Colony,Film City Viewpoint,Morning Dew Cottage,2400,
+520,320,67,Aarey Colony,Greenway Trail,Sunrise Budget Inn,1100,
+408,208,68,Elephanta Island,Elephanta Cave 1,Lakefront Homestay,2200,
+409,209,68,Elephanta Island,Elephanta Cave 2,Heritage Stone Palace,4800,
+410,210,68,Elephanta Island,Canon Hill,Valley Breeze Inn,1600,
+486,286,68,Elephanta Island,Elephanta Jetty,Executive Hill Residency,3800,
+411,211,69,Kanheri Caves,Kanheri Cave 1,Mountain Crest Resort,3600,
+412,212,69,Kanheri Caves,Kanheri Cave 3,Rural Roots Homestay,1100,
+413,213,69,Kanheri Caves,Kanheri Plateau,Serene Woods Cottage,2700,
+487,287,69,Kanheri Caves,Kanheri Museum,Forest Line Budget Stay,950,
+414,214,70,Sanjay Gandhi National Park,SGNP Safari,Cloud Nine Resort,5200,
+415,215,70,Sanjay Gandhi National Park,Yeoor Hills,Temple View Lodge,1300,
+416,216,70,Sanjay Gandhi National Park,Tulsi Lake,Riverside Retreat,3000,
+488,288,70,Sanjay Gandhi National Park,Forest Interpretation Center,Riverfront Premium Lodge,4200,
+417,217,71,Girgaon Chowpatty,Girgaon Chowpatty Beach,Nature Nest Homestay,1000,
+418,218,71,Girgaon Chowpatty,Immersion Ghat,Skyline Residency,3400,
+419,219,71,Girgaon Chowpatty,Marine Aquarium,Colonial Heritage Stay,4500,
+489,289,71,Girgaon Chowpatty,Beach Promenade,Heritage Courtyard Stay,3100,
+420,220,72,Junnar,Junnar Caves,Backwater Bliss Lodge,2000,
+421,221,72,Junnar,Shivneri Fort,Golden Horizon Hotel,3800,
+422,222,72,Junnar,Lenyadri Caves,Traveller’s Rest Inn,1200,
+490,290,72,Junnar,Ancient Market Street,Windy Cliff Resort,5600,
+423,223,73,Bhimashankar Wildlife Sanctuary,Bhimashankar Forest Trail,Hill Shadow Homestay,1800,
+424,224,73,Bhimashankar Wildlife Sanctuary,Gupt Bhimashankar,Evergreen Forest Resort,4100,
+425,225,73,Bhimashankar Wildlife Sanctuary,Nagphani Point,Sunset Point Lodge,1500,
+491,291,73,Bhimashankar Wildlife Sanctuary,Temple Approach Path,Basic Traveller Lodge,850,
+426,226,74,Rajgad,Rajgad Fort Top,Quiet Corner Guest House,900,
+427,227,74,Rajgad,Bale Killa,Royal Deccan Palace,6000,
+428,228,74,Rajgad,Sanjeevani Machi,Lakeside Comfort Stay,2300,
+492,292,74,Rajgad,Fort Base Village,Hill Bloom Homestay,1700,
+429,229,75,Panhala,Panhala Fort Top,Windmill View Resort,3400,
+430,230,75,Panhala,Teen Darwaja,Urban Nomad Hostel,800,
+431,231,75,Panhala,Tabak Udyan,Ancient Fort View Stay,2600,
+493,293,75,Panhala,Historical Pathway,Serenity Springs Resort,4600,
+432,232,76,Vengurla,Vengurla Beach,Green Canopy Eco Lodge,2900,
+433,233,76,Vengurla,Redi Ganpati Temple,River Pearl Residency,3700,
+434,234,76,Vengurla,Kalavi Beach,Village Charm Homestay,1000,
+494,294,76,Vengurla,Coastal Watchtower,Town Square Residency,2800,
+435,235,77,Malvan,Malvan Beach,Western Ghats Retreat,4200,
+436,236,77,Malvan,Rock Garden,Sunbeam Tourist Lodge,1100,
+437,237,77,Malvan,Tarkarli Jetty,Hillway Executive Stay,3100,
+495,295,77,Malvan,Sea Cliff Viewpoint,Konkan Coast Luxury Stay,6200,
+438,238,78,Sawantwadi,Sawantwadi Palace,Peace Valley Cottage,1700,
+439,239,78,Sawantwadi,Moti Talao,Heritage Wada Stay,2800,
+440,240,78,Sawantwadi,Narayan Rane Park,Luxura Hill Resort,5500,
+496,296,78,Sawantwadi,Local Handicraft Market,Peaceful Night Guest House,1100,
+441,241,79,Chikhaldara,Chikhaldara Wildlife View,Budget Backpackers Inn,700,
+442,242,79,Chikhaldara,Bhima Kund,Saffron Valley Resort,3900,
+443,243,79,Chikhaldara,Kalapani Lake,Meadow View Homestay,1400,
+497,297,79,Chikhaldara,Valley Fog Point,Misty Peak Cottage,2600,
+444,244,80,Paithan,Paithani Weaving Center,Crystal Lake Residency,3600,
+445,245,80,Paithan,Jayakwadi Dam,Rainforest Hideout,4800,
+446,246,80,Paithan,Sant Eknath Garden,Pilgrim Comfort Lodge,900,
+498,298,80,Paithan,Godavari River Ghat,Executive Comfort Inn,3400,
+447,247,81,Aurangabad Caves,Aurangabad Cave 6,Blue Ridge Mountain Stay,3200,
+448,248,81,Aurangabad Caves,Aurangabad Cave 7,Country Roads Homestay,1200,
+449,249,81,Aurangabad Caves,Cave Viewpoint,Royal Konkan Retreat,4500,
+499,299,81,Aurangabad Caves,Sunset Hill,Wildwood Forest Resort,5200,
+450,250,82,Pench National Park,Pench Safari Zone,Sunset Bliss Cottage,2600,
+451,251,82,Pench National Park,Turai Gate,Highland Breeze Resort,4100,
+452,252,82,Pench National Park,Totladoh Dam,Simple Stay Guest House,850,
+500,300,82,Pench National Park,Forest Watchtower,Sunset Ridge Homestay,1900,
+453,253,83,Umred Karhandla,Umred Safari Zone,Riverbank View Inn,1900,
+454,254,83,Umred Karhandla,Karhandla Lake,Grand Heritage Hotel,6200,
+455,255,83,Umred Karhandla,Forest Trail,Green Pastures Homestay,1300,
+501,301,83,Umred Karhandla,Bird Watching Zone,Riverbend Budget Lodge,1200,
+456,256,84,Devgad,Devgad Fort,Misty Trails Lodge,2800,
+457,257,84,Devgad,Devgad Beach,Urban Comfort Residency,3400,
+458,258,84,Devgad,Windmill Viewpoint,Nature Walk Eco Stay,1600,
+502,302,84,Devgad,Coastal Fishing Jetty,Elite Hill Palace,7500,
+459,259,85,Shivneri Fort,Shivneri Fort Top,Hill Monarch Resort,5300,
+460,260,85,Shivneri Fort,Shiv Janmasthan,Old Town Tourist Lodge,1000,
+461,261,85,Shivneri Fort,Badami Talav,Skyview Executive Rooms,3100,
+503,303,85,Shivneri Fort,Fort Museum,Green Roof Eco Stay,2300,
+462,262,86,Bhandara,Bhandara Lake,Lakeshore Budget Stay,1100,
+463,263,86,Bhandara,Ambagad Fort,Wildlife Safari Lodge,4200,
+464,264,86,Bhandara,Forest Park,Sunrise Valley Homestay,1500,
+504,304,86,Bhandara,Sunrise Hill,Traveller’s Choice Inn,1500,
+465,265,87,Gondia,Gondia Lake,Premium Ghats Resort,5700,
+466,266,87,Gondia,Itiadoh Dam,Traveller’s Nest Hostel,750,
+467,267,87,Gondia,Navegaon Bandh,Calm Waters Retreat,2900,
+505,305,87,Gondia,Forest Picnic Area,Cloud View Luxury Resort,6800,
+468,268,88,Chandoli National Park,Chandoli Dam,Stone Arch Heritage Stay,3600,
+469,269,88,Chandoli National Park,Forest Safari,Green Fields Homestay,1200,
+470,270,88,Chandoli National Park,Heritage Village,Hill Crest Luxury Resort,6500,
+506,306,88,Chandoli National Park,Scenic Valley Trail,Simple Roots Homestay,1000,
+471,271,89,Koyna Wildlife Sanctuary,Koyna Dam,Rustic Village Lodge,1400,
+472,272,89,Koyna Wildlife Sanctuary,Shivsagar Lake,Forest Whisper Cottage,2700,
+473,273,89,Koyna Wildlife Sanctuary,Forest Trail,City Edge Residency,3300,
+507,307,89,Koyna Wildlife Sanctuary,Dam Viewpoint,Royal Ghats Residency,4200,
+474,274,90,Kolad,Kolad Rafting Point,Sacred Stay Pilgrim Lodge,900,
+475,275,90,Kolad,Kundalika River,Sun Valley Premium Resort,5200,
+476,276,90,Kolad,Kolad Waterfall,Minimalist Budget Inn,800,
+477,277,90,Kolad,Forest Campsite,Riverstone Boutique Stay,3900,
+508,308,90,Kolad,Riverside Walk,Forest Path Cottage,2100,
+509,309,90,Kolad,Nature Photography Point,Urban Hill Hotel,3600,
+510,310,90,Kolad,Local Village Tour,Quiet Horizon Lodge,1400,
